@@ -1,0 +1,521 @@
+{
+  "name": "Xpath Scanner",
+  "path": "TitleBar",
+  "children": [
+    {
+      "name": "TitleBar",
+      "path": "/TitleBar[@AutomationId=\"TitleBar\"]",
+      "children": [
+        {
+          "name": "SystemMenuBar",
+          "path": "/MenuBar[@AutomationId=\"SystemMenuBar\"]",
+          "children": [
+            {
+              "name": "System",
+              "path": "/MenuItem[@Name=\"System\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Minimize_Restore",
+          "path": "/Button[@AutomationId=\"Minimize-Restore\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Maximize_Restore",
+          "path": "/Button[@AutomationId=\"Maximize-Restore\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Close",
+          "path": "/Button[@AutomationId=\"Close\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_AppComboBox",
+      "path": "/ComboBox[@AutomationId=\"AppComboBox\"]",
+      "children": []
+    },
+    {
+      "name": "Click_RefreshButton",
+      "path": "/Button[@AutomationId=\"RefreshButton\"]",
+      "children": [
+        {
+          "name": "L_m_m_i_danh_s_ch",
+          "path": "/Text[@Name=\"Làm mới danh sách\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "T_n_m_n_h_nh_",
+      "path": "/Text[@Name=\"Tên màn hình:\"]",
+      "children": []
+    },
+    {
+      "name": "Input_ScreenNameTextBox",
+      "path": "/Edit[@AutomationId=\"ScreenNameTextBox\"]",
+      "children": []
+    },
+    {
+      "name": "Root_anchor_path__tu__ch_n__",
+      "path": "/Text[@Name=\"Root anchor path (tuỳ chọn):\"]",
+      "children": []
+    },
+    {
+      "name": "Input_RootAnchorTextBox",
+      "path": "/Edit[@AutomationId=\"RootAnchorTextBox\"]",
+      "children": []
+    },
+    {
+      "name": "ResultTreeView",
+      "path": "/Tree[@AutomationId=\"ResultTreeView\"]",
+      "children": [
+        {
+          "name": "Xpath_Scanner___TitleBar_",
+          "path": "/TreeItem[@Name=\"Xpath Scanner  (TitleBar)\"]",
+          "children": [
+            {
+              "name": "Click_Expander",
+              "path": "/Button[@AutomationId=\"Expander\"]",
+              "children": []
+            },
+            {
+              "name": "Xpath_Scanner___TitleBar_",
+              "path": "/Text[@Name=\"Xpath Scanner  (TitleBar)\"]",
+              "children": []
+            },
+            {
+              "name": "TitleBar____TitleBar__AutomationId__TitleBar___",
+              "path": "/TreeItem[@Name=\"TitleBar  (/TitleBar[@AutomationId=\\\"TitleBar\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "TitleBar____TitleBar__AutomationId__TitleBar___",
+                  "path": "/Text[@Name=\"TitleBar  (/TitleBar[@AutomationId=\\\"TitleBar\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Select_AppComboBox____ComboBox__AutomationId__AppComboBox___",
+              "path": "/TreeItem[@Name=\"Select_AppComboBox  (/ComboBox[@AutomationId=\\\"AppComboBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Select_AppComboBox____ComboBox__AutomationId__AppComboBox___",
+                  "path": "/Text[@Name=\"Select_AppComboBox  (/ComboBox[@AutomationId=\\\"AppComboBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_RefreshButton____Button__AutomationId__RefreshButton___",
+              "path": "/TreeItem[@Name=\"Click_RefreshButton  (/Button[@AutomationId=\\\"RefreshButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_RefreshButton____Button__AutomationId__RefreshButton___",
+                  "path": "/Text[@Name=\"Click_RefreshButton  (/Button[@AutomationId=\\\"RefreshButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "T_n_m_n_h_nh_____Text__Name__T_n_m_n_h_nh____",
+              "path": "/TreeItem[@Name=\"T_n_m_n_h_nh_  (/Text[@Name=\\\"Tên màn hình:\\\"])\"]",
+              "children": [
+                {
+                  "name": "T_n_m_n_h_nh_____Text__Name__T_n_m_n_h_nh____",
+                  "path": "/Text[@Name=\"T_n_m_n_h_nh_  (/Text[@Name=\\\"Tên màn hình:\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_ScreenNameTextBox____Edit__AutomationId__ScreenNameTextBox___",
+              "path": "/TreeItem[@Name=\"Input_ScreenNameTextBox  (/Edit[@AutomationId=\\\"ScreenNameTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Input_ScreenNameTextBox____Edit__AutomationId__ScreenNameTextBox___",
+                  "path": "/Text[@Name=\"Input_ScreenNameTextBox  (/Edit[@AutomationId=\\\"ScreenNameTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Root_anchor_path__tu__ch_n______Text__Name__Root_anchor_path__tu__ch_n_____",
+              "path": "/TreeItem[@Name=\"Root_anchor_path__tu__ch_n__  (/Text[@Name=\\\"Root anchor path (tuỳ chọn):\\\"])\"]",
+              "children": [
+                {
+                  "name": "Root_anchor_path__tu__ch_n______Text__Name__Root_anchor_path__tu__ch_n_____",
+                  "path": "/Text[@Name=\"Root_anchor_path__tu__ch_n__  (/Text[@Name=\\\"Root anchor path (tuỳ chọn):\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_RootAnchorTextBox____Edit__AutomationId__RootAnchorTextBox___",
+              "path": "/TreeItem[@Name=\"Input_RootAnchorTextBox  (/Edit[@AutomationId=\\\"RootAnchorTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Input_RootAnchorTextBox____Edit__AutomationId__RootAnchorTextBox___",
+                  "path": "/Text[@Name=\"Input_RootAnchorTextBox  (/Edit[@AutomationId=\\\"RootAnchorTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ResultTreeView____Tree__AutomationId__ResultTreeView___",
+              "path": "/TreeItem[@Name=\"ResultTreeView  (/Tree[@AutomationId=\\\"ResultTreeView\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "ResultTreeView____Tree__AutomationId__ResultTreeView___",
+                  "path": "/Text[@Name=\"ResultTreeView  (/Tree[@AutomationId=\\\"ResultTreeView\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_ScanButton____Button__AutomationId__ScanButton___",
+              "path": "/TreeItem[@Name=\"Click_ScanButton  (/Button[@AutomationId=\\\"ScanButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_ScanButton____Button__AutomationId__ScanButton___",
+                  "path": "/Text[@Name=\"Click_ScanButton  (/Button[@AutomationId=\\\"ScanButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_SaveNewButton____Button__AutomationId__SaveNewButton___",
+              "path": "/TreeItem[@Name=\"Click_SaveNewButton  (/Button[@AutomationId=\\\"SaveNewButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_SaveNewButton____Button__AutomationId__SaveNewButton___",
+                  "path": "/Text[@Name=\"Click_SaveNewButton  (/Button[@AutomationId=\\\"SaveNewButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_UpdateExistingButton____Button__AutomationId__UpdateExistingButton___",
+              "path": "/TreeItem[@Name=\"Click_UpdateExistingButton  (/Button[@AutomationId=\\\"UpdateExistingButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_UpdateExistingButton____Button__AutomationId__UpdateExistingButton___",
+                  "path": "/Text[@Name=\"Click_UpdateExistingButton  (/Button[@AutomationId=\\\"UpdateExistingButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_LogTextBox____Edit__AutomationId__LogTextBox___",
+              "path": "/TreeItem[@Name=\"Input_LogTextBox  (/Edit[@AutomationId=\\\"LogTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Input_LogTextBox____Edit__AutomationId__LogTextBox___",
+                  "path": "/Text[@Name=\"Input_LogTextBox  (/Edit[@AutomationId=\\\"LogTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Xpath_Scann____TitleBar_",
+          "path": "/TreeItem[@Name=\"Xpath Scannẻ  (TitleBar)\"]",
+          "children": [
+            {
+              "name": "Click_Expander",
+              "path": "/Button[@AutomationId=\"Expander\"]",
+              "children": []
+            },
+            {
+              "name": "Xpath_Scann____TitleBar_",
+              "path": "/Text[@Name=\"Xpath Scannẻ  (TitleBar)\"]",
+              "children": []
+            },
+            {
+              "name": "TitleBar____TitleBar__AutomationId__TitleBar___",
+              "path": "/TreeItem[@Name=\"TitleBar  (/TitleBar[@AutomationId=\\\"TitleBar\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "TitleBar____TitleBar__AutomationId__TitleBar___",
+                  "path": "/Text[@Name=\"TitleBar  (/TitleBar[@AutomationId=\\\"TitleBar\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Select_AppComboBox____ComboBox__AutomationId__AppComboBox___",
+              "path": "/TreeItem[@Name=\"Select_AppComboBox  (/ComboBox[@AutomationId=\\\"AppComboBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Select_AppComboBox____ComboBox__AutomationId__AppComboBox___",
+                  "path": "/Text[@Name=\"Select_AppComboBox  (/ComboBox[@AutomationId=\\\"AppComboBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_RefreshButton____Button__AutomationId__RefreshButton___",
+              "path": "/TreeItem[@Name=\"Click_RefreshButton  (/Button[@AutomationId=\\\"RefreshButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_RefreshButton____Button__AutomationId__RefreshButton___",
+                  "path": "/Text[@Name=\"Click_RefreshButton  (/Button[@AutomationId=\\\"RefreshButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "T_n_m_n_h_nh_____Text__Name__T_n_m_n_h_nh____",
+              "path": "/TreeItem[@Name=\"T_n_m_n_h_nh_  (/Text[@Name=\\\"Tên màn hình:\\\"])\"]",
+              "children": [
+                {
+                  "name": "T_n_m_n_h_nh_____Text__Name__T_n_m_n_h_nh____",
+                  "path": "/Text[@Name=\"T_n_m_n_h_nh_  (/Text[@Name=\\\"Tên màn hình:\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_ScreenNameTextBox____Edit__AutomationId__ScreenNameTextBox___",
+              "path": "/TreeItem[@Name=\"Input_ScreenNameTextBox  (/Edit[@AutomationId=\\\"ScreenNameTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Input_ScreenNameTextBox____Edit__AutomationId__ScreenNameTextBox___",
+                  "path": "/Text[@Name=\"Input_ScreenNameTextBox  (/Edit[@AutomationId=\\\"ScreenNameTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Root_anchor_path__tu__ch_n______Text__Name__Root_anchor_path__tu__ch_n_____",
+              "path": "/TreeItem[@Name=\"Root_anchor_path__tu__ch_n__  (/Text[@Name=\\\"Root anchor path (tuỳ chọn):\\\"])\"]",
+              "children": [
+                {
+                  "name": "Root_anchor_path__tu__ch_n______Text__Name__Root_anchor_path__tu__ch_n_____",
+                  "path": "/Text[@Name=\"Root_anchor_path__tu__ch_n__  (/Text[@Name=\\\"Root anchor path (tuỳ chọn):\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_RootAnchorTextBox____Edit__AutomationId__RootAnchorTextBox___",
+              "path": "/TreeItem[@Name=\"Input_RootAnchorTextBox  (/Edit[@AutomationId=\\\"RootAnchorTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Input_RootAnchorTextBox____Edit__AutomationId__RootAnchorTextBox___",
+                  "path": "/Text[@Name=\"Input_RootAnchorTextBox  (/Edit[@AutomationId=\\\"RootAnchorTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "ResultTreeView____Tree__AutomationId__ResultTreeView___",
+              "path": "/TreeItem[@Name=\"ResultTreeView  (/Tree[@AutomationId=\\\"ResultTreeView\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "ResultTreeView____Tree__AutomationId__ResultTreeView___",
+                  "path": "/Text[@Name=\"ResultTreeView  (/Tree[@AutomationId=\\\"ResultTreeView\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_ScanButton____Button__AutomationId__ScanButton___",
+              "path": "/TreeItem[@Name=\"Click_ScanButton  (/Button[@AutomationId=\\\"ScanButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_ScanButton____Button__AutomationId__ScanButton___",
+                  "path": "/Text[@Name=\"Click_ScanButton  (/Button[@AutomationId=\\\"ScanButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_SaveNewButton____Button__AutomationId__SaveNewButton___",
+              "path": "/TreeItem[@Name=\"Click_SaveNewButton  (/Button[@AutomationId=\\\"SaveNewButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_SaveNewButton____Button__AutomationId__SaveNewButton___",
+                  "path": "/Text[@Name=\"Click_SaveNewButton  (/Button[@AutomationId=\\\"SaveNewButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Click_UpdateExistingButton____Button__AutomationId__UpdateExistingButton___",
+              "path": "/TreeItem[@Name=\"Click_UpdateExistingButton  (/Button[@AutomationId=\\\"UpdateExistingButton\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_UpdateExistingButton____Button__AutomationId__UpdateExistingButton___",
+                  "path": "/Text[@Name=\"Click_UpdateExistingButton  (/Button[@AutomationId=\\\"UpdateExistingButton\\\"])\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Input_LogTextBox____Edit__AutomationId__LogTextBox___",
+              "path": "/TreeItem[@Name=\"Input_LogTextBox  (/Edit[@AutomationId=\\\"LogTextBox\\\"])\"]",
+              "children": [
+                {
+                  "name": "Click_Expander",
+                  "path": "/Button[@AutomationId=\"Expander\"]",
+                  "children": []
+                },
+                {
+                  "name": "Input_LogTextBox____Edit__AutomationId__LogTextBox___",
+                  "path": "/Text[@Name=\"Input_LogTextBox  (/Edit[@AutomationId=\\\"LogTextBox\\\"])\"]",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Click_ScanButton",
+      "path": "/Button[@AutomationId=\"ScanButton\"]",
+      "children": [
+        {
+          "name": "Qu_t",
+          "path": "/Text[@Name=\"Quét\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Click_SaveNewButton",
+      "path": "/Button[@AutomationId=\"SaveNewButton\"]",
+      "children": [
+        {
+          "name": "L_u_JSON_m_i",
+          "path": "/Text[@Name=\"Lưu JSON mới\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Click_UpdateExistingButton",
+      "path": "/Button[@AutomationId=\"UpdateExistingButton\"]",
+      "children": [
+        {
+          "name": "C_p_nh_t_JSON_hi_n_c_",
+          "path": "/Text[@Name=\"Cập nhật JSON hiện có\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Input_LogTextBox",
+      "path": "/Edit[@AutomationId=\"LogTextBox\"]",
+      "children": [
+        {
+          "name": "VerticalScrollBar",
+          "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+          "children": [
+            {
+              "name": "Click_PART_LineUpButton",
+              "path": "/Button[@AutomationId=\"PART_LineUpButton\"]",
+              "children": []
+            },
+            {
+              "name": "Click_PageUp",
+              "path": "/Button[@AutomationId=\"PageUp\"]",
+              "children": []
+            },
+            {
+              "name": "Click_PageDown",
+              "path": "/Button[@AutomationId=\"PageDown\"]",
+              "children": []
+            },
+            {
+              "name": "Unnamed",
+              "path": "/Thumb[0]",
+              "children": []
+            },
+            {
+              "name": "Click_PART_LineDownButton",
+              "path": "/Button[@AutomationId=\"PART_LineDownButton\"]",
+              "children": []
+            },
+            {
+              "name": "Unnamed",
+              "path": "/Thumb[0]",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

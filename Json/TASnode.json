@@ -1,0 +1,4408 @@
+{
+  "name": "Setting",
+  "path": "/Custom[0]",
+  "children": [
+    {
+      "name": "Tab_Tab_ProfileExplorer",
+      "path": "/Tab[@AutomationId=\"Tab_ProfileExplorer\"]",
+      "children": [
+        {
+          "name": "Tab_PS2G_PETabItemViewModel",
+          "path": "/TabItem[@Name=\"PS2G.PETabItemViewModel\"]",
+          "children": [
+            {
+              "name": "Profile_Search",
+              "path": "/Text[@Name=\"Profile Search\"]",
+              "children": []
+            },
+            {
+              "name": "Click_Unnamed",
+              "path": "/Button[0]",
+              "children": []
+            },
+            {
+              "name": "root",
+              "path": "/Custom[@AutomationId=\"root\"]",
+              "children": [
+                {
+                  "name": "SEARCH",
+                  "path": "/Text[@Name=\"SEARCH\"]",
+                  "children": [
+                    {
+                      "name": "SEARCH",
+                      "path": "/Text[@Name=\"SEARCH\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_ButtonAutoFocus",
+                  "path": "/Button[@AutomationId=\"ButtonAutoFocus\"]",
+                  "children": [
+                    {
+                      "name": "Update_Auto_Focus",
+                      "path": "/Text[@Name=\"Update Auto-Focus\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "ControlSearchBox",
+                  "path": "/Custom[@AutomationId=\"ControlSearchBox\"]",
+                  "children": [
+                    {
+                      "name": "Input_mytext",
+                      "path": "/Edit[@AutomationId=\"mytext\"]",
+                      "children": [
+                        {
+                          "name": "VerticalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "HorizontalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Click_Unnamed",
+                      "path": "/Button[0]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_ButtonShowAll",
+                  "path": "/Button[@AutomationId=\"ButtonShowAll\"]",
+                  "children": [
+                    {
+                      "name": "Show_All",
+                      "path": "/Text[@Name=\"Show All\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Select_MultiSelectCombo",
+                  "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                  "children": [
+                    {
+                      "name": "Input_PART_EditableTextBox",
+                      "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                      "children": [
+                        {
+                          "name": "VerticalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "HorizontalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cmb_Product",
+                  "path": "/Custom[@AutomationId=\"Cmb_Product\"]",
+                  "children": [
+                    {
+                      "name": "Select_MultiSelectCombo",
+                      "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                      "children": [
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cmb_OvenName",
+                  "path": "/Custom[@AutomationId=\"Cmb_OvenName\"]",
+                  "children": [
+                    {
+                      "name": "Select_MultiSelectCombo",
+                      "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                      "children": [
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cmb_ProcessWindow",
+                  "path": "/Custom[@AutomationId=\"Cmb_ProcessWindow\"]",
+                  "children": [
+                    {
+                      "name": "Select_MultiSelectCombo",
+                      "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                      "children": [
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cmb_ProcessWindow2",
+                  "path": "/Custom[@AutomationId=\"Cmb_ProcessWindow2\"]",
+                  "children": [
+                    {
+                      "name": "Select_MultiSelectCombo",
+                      "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                      "children": [
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Cmb_Application",
+                  "path": "/Custom[@AutomationId=\"Cmb_Application\"]",
+                  "children": [
+                    {
+                      "name": "Select_MultiSelectCombo",
+                      "path": "/ComboBox[@AutomationId=\"MultiSelectCombo\"]",
+                      "children": [
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Views_Control_Node",
+                          "path": "/ListItem[@Name=\"PS2G.Views.Control.Node\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_ButtonSaveFilter",
+                  "path": "/Button[@AutomationId=\"ButtonSaveFilter\"]",
+                  "children": [
+                    {
+                      "name": "Save_Filter",
+                      "path": "/Text[@Name=\"Save Filter\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_ButtonUpdateProcessWindow",
+                  "path": "/Button[@AutomationId=\"ButtonUpdateProcessWindow\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_ButtonUpdateFanSpeed",
+                  "path": "/Button[@AutomationId=\"ButtonUpdateFanSpeed\"]",
+                  "children": [
+                    {
+                      "name": "Update_Fan_Speed",
+                      "path": "/Text[@Name=\"Update Fan Speed\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "SUMMARY",
+                  "path": "/Text[@Name=\"SUMMARY\"]",
+                  "children": [
+                    {
+                      "name": "SUMMARY",
+                      "path": "/Text[@Name=\"SUMMARY\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Txt_TotalProfiles",
+                  "path": "/Text[@AutomationId=\"Txt_TotalProfiles\"]",
+                  "children": [
+                    {
+                      "name": "98",
+                      "path": "/Text[@Name=\"98\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Total_profiles",
+                  "path": "/Text[@Name=\"Total profiles\"]",
+                  "children": [
+                    {
+                      "name": "Total_profiles",
+                      "path": "/Text[@Name=\"Total profiles\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "ProfileListDataGrid",
+                  "path": "/DataGrid[@AutomationId=\"ProfileListDataGrid\"]",
+                  "children": [
+                    {
+                      "name": "PART_ColumnHeadersPresenter",
+                      "path": "/Header[@AutomationId=\"PART_ColumnHeadersPresenter\"]",
+                      "children": [
+                        {
+                          "name": "Product",
+                          "path": "/HeaderItem[@Name=\"Product\"]",
+                          "children": [
+                            {
+                              "name": "Product",
+                              "path": "/Text[@Name=\"Product\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Oven_ID",
+                          "path": "/HeaderItem[@Name=\"Oven ID\"]",
+                          "children": [
+                            {
+                              "name": "Oven_ID",
+                              "path": "/Text[@Name=\"Oven ID\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Start_Time",
+                          "path": "/HeaderItem[@Name=\"Start Time\"]",
+                          "children": [
+                            {
+                              "name": "Start_Time",
+                              "path": "/Text[@Name=\"Start Time\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PWI",
+                          "path": "/HeaderItem[@Name=\"PWI\"]",
+                          "children": [
+                            {
+                              "name": "PWI",
+                              "path": "/Text[@Name=\"PWI\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Process_Window",
+                          "path": "/HeaderItem[@Name=\"Process Window\"]",
+                          "children": [
+                            {
+                              "name": "Process_Window",
+                              "path": "/Text[@Name=\"Process Window\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Application",
+                          "path": "/HeaderItem[@Name=\"Application\"]",
+                          "children": [
+                            {
+                              "name": "Application",
+                              "path": "/Text[@Name=\"Application\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Last_Modified",
+                          "path": "/HeaderItem[@Name=\"Last Modified\"]",
+                          "children": [
+                            {
+                              "name": "Last_Modified",
+                              "path": "/Text[@Name=\"Last Modified\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Profile_Description",
+                          "path": "/HeaderItem[@Name=\"Profile Description\"]",
+                          "children": [
+                            {
+                              "name": "Profile_Description",
+                              "path": "/Text[@Name=\"Profile Description\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_LeftHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_LeftHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_RightHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_RightHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Demo_Print_Landscape_T12_SRA",
+                          "path": "/Custom[@Name=\"PS2G Demo Print Landscape T12 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Demo_Print_Landscape_T12_SRA",
+                              "path": "/Text[@Name=\"PS2G Demo Print Landscape T12 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "8_Zone_Oven",
+                          "path": "/Custom[@Name=\"8 Zone Oven\"]",
+                          "children": [
+                            {
+                              "name": "8_Zone_Oven",
+                              "path": "/Text[@Name=\"8 Zone Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sat_Dec_01_2018_06_13_20",
+                          "path": "/Custom[@Name=\"Sat Dec 01 2018 06:13:20\"]",
+                          "children": [
+                            {
+                              "name": "Sat_Dec_01_2018_06_13_20",
+                              "path": "/Text[@Name=\"Sat Dec 01 2018 06:13:20\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "38_",
+                          "path": "/Custom[@Name=\"38%\"]",
+                          "children": [
+                            {
+                              "name": "38_",
+                              "path": "/Text[@Name=\"38%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Demo",
+                          "path": "/Custom[@Name=\"SRA Demo\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Demo",
+                              "path": "/Text[@Name=\"SRA Demo\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_32",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_32",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Run__6",
+                          "path": "/Custom[@Name=\"Run #6\"]",
+                          "children": [
+                            {
+                              "name": "Run__6",
+                              "path": "/Text[@Name=\"Run #6\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Demo_Print_Landscape_T14_SRA",
+                          "path": "/Custom[@Name=\"PS2G Demo Print Landscape T14 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Demo_Print_Landscape_T14_SRA",
+                              "path": "/Text[@Name=\"PS2G Demo Print Landscape T14 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "8_Zone_Oven",
+                          "path": "/Custom[@Name=\"8 Zone Oven\"]",
+                          "children": [
+                            {
+                              "name": "8_Zone_Oven",
+                              "path": "/Text[@Name=\"8 Zone Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sat_Dec_01_2018_05_52_15",
+                          "path": "/Custom[@Name=\"Sat Dec 01 2018 05:52:15\"]",
+                          "children": [
+                            {
+                              "name": "Sat_Dec_01_2018_05_52_15",
+                              "path": "/Text[@Name=\"Sat Dec 01 2018 05:52:15\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "43_",
+                          "path": "/Custom[@Name=\"43%\"]",
+                          "children": [
+                            {
+                              "name": "43_",
+                              "path": "/Text[@Name=\"43%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Demo",
+                          "path": "/Custom[@Name=\"SRA Demo\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Demo",
+                              "path": "/Text[@Name=\"SRA Demo\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_32",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_32",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Run__5",
+                          "path": "/Custom[@Name=\"Run #5\"]",
+                          "children": [
+                            {
+                              "name": "Run__5",
+                              "path": "/Text[@Name=\"Run #5\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Demo_Print_Landscape_T22_TvsT",
+                          "path": "/Custom[@Name=\"PS2G Demo Print Landscape T22 TvsT\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Demo_Print_Landscape_T22_TvsT",
+                              "path": "/Text[@Name=\"PS2G Demo Print Landscape T22 TvsT\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Paragon",
+                          "path": "/Custom[@Name=\"Paragon\"]",
+                          "children": [
+                            {
+                              "name": "Paragon",
+                              "path": "/Text[@Name=\"Paragon\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Sep_01_2004_23_56_53",
+                          "path": "/Custom[@Name=\"Wed Sep 01 2004 23:56:53\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Sep_01_2004_23_56_53",
+                              "path": "/Text[@Name=\"Wed Sep 01 2004 23:56:53\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "75_",
+                          "path": "/Custom[@Name=\"75%\"]",
+                          "children": [
+                            {
+                              "name": "75_",
+                              "path": "/Text[@Name=\"75%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Time_vs_Temp_DIFFERENT",
+                          "path": "/Custom[@Name=\"Time vs Temp DIFFERENT\"]",
+                          "children": [
+                            {
+                              "name": "Time_vs_Temp_DIFFERENT",
+                              "path": "/Text[@Name=\"Time vs Temp DIFFERENT\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Temperature_Versus_Time",
+                          "path": "/Custom[@Name=\"Temperature Versus Time\"]",
+                          "children": [
+                            {
+                              "name": "Temperature_Versus_Time",
+                              "path": "/Text[@Name=\"Temperature Versus Time\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_36_52",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:36:52\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_36_52",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:36:52\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_Temp_vs_Temp_profile_with_datalogger__102_85_109_105_145_156_193_179_148_119_29_6inches_min",
+                          "path": "/Custom[@Name=\"PI-Temp vs Temp profile with datalogger. 102 85 109 105 145 156 193 179 148 119 29.6inches/min\"]",
+                          "children": [
+                            {
+                              "name": "PI_Temp_vs_Temp_profile_with_datalogger__102_85_109_105_145_156_193_179_148_119_29_6inches_min",
+                              "path": "/Text[@Name=\"PI-Temp vs Temp profile with datalogger. 102 85 109 105 145 156 193 179 148 119 29.6inches/min\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Demo_Print_Portrait_T13_SRA",
+                          "path": "/Custom[@Name=\"PS2G Demo Print Portrait T13 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Demo_Print_Portrait_T13_SRA",
+                              "path": "/Text[@Name=\"PS2G Demo Print Portrait T13 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "8_Zone_Oven",
+                          "path": "/Custom[@Name=\"8 Zone Oven\"]",
+                          "children": [
+                            {
+                              "name": "8_Zone_Oven",
+                              "path": "/Text[@Name=\"8 Zone Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sat_Dec_01_2018_06_13_20",
+                          "path": "/Custom[@Name=\"Sat Dec 01 2018 06:13:20\"]",
+                          "children": [
+                            {
+                              "name": "Sat_Dec_01_2018_06_13_20",
+                              "path": "/Text[@Name=\"Sat Dec 01 2018 06:13:20\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "38_",
+                          "path": "/Custom[@Name=\"38%\"]",
+                          "children": [
+                            {
+                              "name": "38_",
+                              "path": "/Text[@Name=\"38%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Demo",
+                          "path": "/Custom[@Name=\"SRA Demo\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Demo",
+                              "path": "/Text[@Name=\"SRA Demo\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_32",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_32",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:32\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Run__6",
+                          "path": "/Custom[@Name=\"Run #6\"]",
+                          "children": [
+                            {
+                              "name": "Run__6",
+                              "path": "/Text[@Name=\"Run #6\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Demo_Print_Portrait_T15_SRA",
+                          "path": "/Custom[@Name=\"PS2G Demo Print Portrait T15 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Demo_Print_Portrait_T15_SRA",
+                              "path": "/Text[@Name=\"PS2G Demo Print Portrait T15 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "8_Zone_Oven",
+                          "path": "/Custom[@Name=\"8 Zone Oven\"]",
+                          "children": [
+                            {
+                              "name": "8_Zone_Oven",
+                              "path": "/Text[@Name=\"8 Zone Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sat_Dec_01_2018_05_52_15",
+                          "path": "/Custom[@Name=\"Sat Dec 01 2018 05:52:15\"]",
+                          "children": [
+                            {
+                              "name": "Sat_Dec_01_2018_05_52_15",
+                              "path": "/Text[@Name=\"Sat Dec 01 2018 05:52:15\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "43_",
+                          "path": "/Custom[@Name=\"43%\"]",
+                          "children": [
+                            {
+                              "name": "43_",
+                              "path": "/Text[@Name=\"43%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Demo",
+                          "path": "/Custom[@Name=\"SRA Demo\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Demo",
+                              "path": "/Text[@Name=\"SRA Demo\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_34",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_34",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Run__5",
+                          "path": "/Custom[@Name=\"Run #5\"]",
+                          "children": [
+                            {
+                              "name": "Run__5",
+                              "path": "/Text[@Name=\"Run #5\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Print_Portrait_T42_Solder",
+                          "path": "/Custom[@Name=\"PS2G Print Portrait T42 Solder\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_Print_Portrait_T42_Solder",
+                              "path": "/Text[@Name=\"PS2G Print Portrait T42 Solder\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "QJT",
+                          "path": "/Custom[@Name=\"QJT\"]",
+                          "children": [
+                            {
+                              "name": "QJT",
+                              "path": "/Text[@Name=\"QJT\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tue_Oct_05_2021_13_28_35",
+                          "path": "/Custom[@Name=\"Tue Oct 05 2021 13:28:35\"]",
+                          "children": [
+                            {
+                              "name": "Tue_Oct_05_2021_13_28_35",
+                              "path": "/Text[@Name=\"Tue Oct 05 2021 13:28:35\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "101_",
+                          "path": "/Custom[@Name=\"101%\"]",
+                          "children": [
+                            {
+                              "name": "101_",
+                              "path": "/Text[@Name=\"101%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CPW_Reflow",
+                          "path": "/Custom[@Name=\"CPW Reflow\"]",
+                          "children": [
+                            {
+                              "name": "CPW_Reflow",
+                              "path": "/Text[@Name=\"CPW Reflow\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Solder_Reflow",
+                          "path": "/Custom[@Name=\"Solder Reflow\"]",
+                          "children": [
+                            {
+                              "name": "Solder_Reflow",
+                              "path": "/Text[@Name=\"Solder Reflow\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_36_02",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:36:02\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_36_02",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:36:02\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_Q_Dual_Profiling_Product___Solder",
+                          "path": "/Custom[@Name=\"PI-Q Dual Profiling Product - Solder\"]",
+                          "children": [
+                            {
+                              "name": "PI_Q_Dual_Profiling_Product___Solder",
+                              "path": "/Text[@Name=\"PI-Q Dual Profiling Product - Solder\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Landscape_T29_Wave_On",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Landscape T29 Wave On\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Landscape_T29_Wave_On",
+                              "path": "/Text[@Name=\"PS2G V47 Print Landscape T29 Wave On\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_30_Zones",
+                          "path": "/Custom[@Name=\"PS3G Oven 30 Zones\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_30_Zones",
+                              "path": "/Text[@Name=\"PS3G Oven 30 Zones\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_11_36_10",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 11:36:10\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_11_36_10",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 11:36:10\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "87_",
+                          "path": "/Custom[@Name=\"87%\"]",
+                          "children": [
+                            {
+                              "name": "87_",
+                              "path": "/Text[@Name=\"87%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Wave_1_Diff",
+                          "path": "/Custom[@Name=\"PS2G 47 Wave 1 Diff\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Wave_1_Diff",
+                              "path": "/Text[@Name=\"PS2G 47 Wave 1 Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Solder___Wave_On",
+                          "path": "/Custom[@Name=\"Wave Solder - Wave On\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Solder___Wave_On",
+                              "path": "/Text[@Name=\"Wave Solder - Wave On\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_36_28",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:36:28\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_36_28",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:36:28\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_v47_Print_Landscape_T29_Wave_On_Diff",
+                          "path": "/Custom[@Name=\"PI-PS2G v47 Print Landscape T29 Wave On Diff\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_v47_Print_Landscape_T29_Wave_On_Diff",
+                              "path": "/Text[@Name=\"PI-PS2G v47 Print Landscape T29 Wave On Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Landscape_T33_Wave_Surfer_Dual",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Landscape T33 Wave Surfer Dual\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Landscape_T33_Wave_Surfer_Dual",
+                              "path": "/Text[@Name=\"PS2G V47 Print Landscape T33 Wave Surfer Dual\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_30_Zones",
+                          "path": "/Custom[@Name=\"PS3G Oven 30 Zones\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_30_Zones",
+                              "path": "/Text[@Name=\"PS3G Oven 30 Zones\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_10_09_45",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_10_09_45",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "204_",
+                          "path": "/Custom[@Name=\"204%\"]",
+                          "children": [
+                            {
+                              "name": "204_",
+                              "path": "/Text[@Name=\"204%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Wave_3_Same",
+                          "path": "/Custom[@Name=\"PS2G 47 Wave 3 Same\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Wave_3_Same",
+                              "path": "/Text[@Name=\"PS2G 47 Wave 3 Same\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Surfer",
+                          "path": "/Custom[@Name=\"Wave Surfer\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Surfer",
+                              "path": "/Text[@Name=\"Wave Surfer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_47_00",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:47:00\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_47_00",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:47:00\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_V47_Print_Landscape_T33_Wave_Surfer_Dual_SameSpec",
+                          "path": "/Custom[@Name=\"PI-PS2G V47 Print Landscape T33 Wave Surfer Dual SameSpec\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_V47_Print_Landscape_T33_Wave_Surfer_Dual_SameSpec",
+                              "path": "/Text[@Name=\"PI-PS2G V47 Print Landscape T33 Wave Surfer Dual SameSpec\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Landscape_T35_Wave_Surfer_Dual",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Landscape T35 Wave Surfer Dual\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Landscape_T35_Wave_Surfer_Dual",
+                              "path": "/Text[@Name=\"PS2G V47 Print Landscape T35 Wave Surfer Dual\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_12_Zones",
+                          "path": "/Custom[@Name=\"PS3G Oven 12 Zones\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_12_Zones",
+                              "path": "/Text[@Name=\"PS3G Oven 12 Zones\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_10_09_45",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_10_09_45",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "232_",
+                          "path": "/Custom[@Name=\"232%\"]",
+                          "children": [
+                            {
+                              "name": "232_",
+                              "path": "/Text[@Name=\"232%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Wave_3_Diff",
+                          "path": "/Custom[@Name=\"PS2G 47 Wave 3 Diff\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Wave_3_Diff",
+                              "path": "/Text[@Name=\"PS2G 47 Wave 3 Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Surfer",
+                          "path": "/Custom[@Name=\"Wave Surfer\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Surfer",
+                              "path": "/Text[@Name=\"Wave Surfer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_47_50",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:47:50\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_47_50",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:47:50\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_V47_Print_Landscape_T35_Wave_Surfer_Dual_Diff",
+                          "path": "/Custom[@Name=\"PI-PS2G V47 Print Landscape T35 Wave Surfer Dual Diff\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_V47_Print_Landscape_T35_Wave_Surfer_Dual_Diff",
+                              "path": "/Text[@Name=\"PI-PS2G V47 Print Landscape T35 Wave Surfer Dual Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Landscape_T37_Wave_On_Dual",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Landscape T37 Wave On Dual\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Landscape_T37_Wave_On_Dual",
+                              "path": "/Text[@Name=\"PS2G V47 Print Landscape T37 Wave On Dual\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_12_Zones",
+                          "path": "/Custom[@Name=\"PS3G Oven 12 Zones\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_12_Zones",
+                              "path": "/Text[@Name=\"PS3G Oven 12 Zones\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_10_09_46",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 10:09:46\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_10_09_46",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 10:09:46\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "567_",
+                          "path": "/Custom[@Name=\"567%\"]",
+                          "children": [
+                            {
+                              "name": "567_",
+                              "path": "/Text[@Name=\"567%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Reflow_N_Diff",
+                          "path": "/Custom[@Name=\"PS2G 47 Reflow N Diff\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Reflow_N_Diff",
+                              "path": "/Text[@Name=\"PS2G 47 Reflow N Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Solder___Wave_On",
+                          "path": "/Custom[@Name=\"Wave Solder - Wave On\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Solder___Wave_On",
+                              "path": "/Text[@Name=\"Wave Solder - Wave On\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_48_50",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:48:50\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_48_50",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:48:50\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_V47_Print_Landscape_T37_Wave_On_Dual_Diff",
+                          "path": "/Custom[@Name=\"PI-PS2G V47 Print Landscape T37 Wave On Dual Diff\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_V47_Print_Landscape_T37_Wave_On_Dual_Diff",
+                              "path": "/Text[@Name=\"PI-PS2G V47 Print Landscape T37 Wave On Dual Diff\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Portrait_T35__Wave_On",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Portrait T35  Wave On\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Portrait_T35__Wave_On",
+                              "path": "/Text[@Name=\"PS2G V47 Print Portrait T35  Wave On\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_24_Zones",
+                          "path": "/Custom[@Name=\"PS3G Oven 24 Zones\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_24_Zones",
+                              "path": "/Text[@Name=\"PS3G Oven 24 Zones\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_10_09_45",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_10_09_45",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "139_",
+                          "path": "/Custom[@Name=\"139%\"]",
+                          "children": [
+                            {
+                              "name": "139_",
+                              "path": "/Text[@Name=\"139%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Wave_2_Same",
+                          "path": "/Custom[@Name=\"PS2G 47 Wave 2 Same\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Wave_2_Same",
+                              "path": "/Text[@Name=\"PS2G 47 Wave 2 Same\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Solder___Wave_On",
+                          "path": "/Custom[@Name=\"Wave Solder - Wave On\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Solder___Wave_On",
+                              "path": "/Text[@Name=\"Wave Solder - Wave On\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_50_42",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:50:42\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_50_42",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:50:42\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_v4803_Print_Portrait_T35__Wave_On_SameSpec",
+                          "path": "/Custom[@Name=\"PI-PS2G v4803 Print Portrait T35  Wave On SameSpec\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_v4803_Print_Portrait_T35__Wave_On_SameSpec",
+                              "path": "/Text[@Name=\"PI-PS2G v4803 Print Portrait T35  Wave On SameSpec\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_V47_Print_Portrait_T40__Wave_Off",
+                          "path": "/Custom[@Name=\"PS2G V47 Print Portrait T40  Wave Off\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_V47_Print_Portrait_T40__Wave_Off",
+                              "path": "/Text[@Name=\"PS2G V47 Print Portrait T40  Wave Off\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS3G_Oven_8_Zone",
+                          "path": "/Custom[@Name=\"PS3G Oven 8 Zone\"]",
+                          "children": [
+                            {
+                              "name": "PS3G_Oven_8_Zone",
+                              "path": "/Text[@Name=\"PS3G Oven 8 Zone\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Jul_19_2023_10_09_45",
+                          "path": "/Custom[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Jul_19_2023_10_09_45",
+                              "path": "/Text[@Name=\"Wed Jul 19 2023 10:09:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "299_",
+                          "path": "/Custom[@Name=\"299%\"]",
+                          "children": [
+                            {
+                              "name": "299_",
+                              "path": "/Text[@Name=\"299%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_47_Wave_2_Same",
+                          "path": "/Custom[@Name=\"PS2G 47 Wave 2 Same\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_47_Wave_2_Same",
+                              "path": "/Text[@Name=\"PS2G 47 Wave 2 Same\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wave_Solder___Wave_Off",
+                          "path": "/Custom[@Name=\"Wave Solder - Wave Off\"]",
+                          "children": [
+                            {
+                              "name": "Wave_Solder___Wave_Off",
+                              "path": "/Text[@Name=\"Wave Solder - Wave Off\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_51_10",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:51:10\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_51_10",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:51:10\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_V47_Print_Portrait_T40__Wave_Off_SameSpec",
+                          "path": "/Custom[@Name=\"PI-PS2G V47 Print Portrait T40  Wave Off SameSpec\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_V47_Print_Portrait_T40__Wave_Off_SameSpec",
+                              "path": "/Text[@Name=\"PI-PS2G V47 Print Portrait T40  Wave Off SameSpec\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4208_Print_Landscape_T8_Cure",
+                          "path": "/Custom[@Name=\"PS2G v4208 Print Landscape T8 Cure\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4208_Print_Landscape_T8_Cure",
+                              "path": "/Text[@Name=\"PS2G v4208 Print Landscape T8 Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "JT_Oven",
+                          "path": "/Custom[@Name=\"JT Oven\"]",
+                          "children": [
+                            {
+                              "name": "JT_Oven",
+                              "path": "/Text[@Name=\"JT Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Thu_Aug_20_2020_11_20_45",
+                          "path": "/Custom[@Name=\"Thu Aug 20 2020 11:20:45\"]",
+                          "children": [
+                            {
+                              "name": "Thu_Aug_20_2020_11_20_45",
+                              "path": "/Text[@Name=\"Thu Aug 20 2020 11:20:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "76_",
+                          "path": "/Custom[@Name=\"76%\"]",
+                          "children": [
+                            {
+                              "name": "76_",
+                              "path": "/Text[@Name=\"76%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Reflow_DIFFERENT_7_Specs",
+                          "path": "/Custom[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                          "children": [
+                            {
+                              "name": "Reflow_DIFFERENT_7_Specs",
+                              "path": "/Text[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Cure",
+                          "path": "/Custom[@Name=\"Cure\"]",
+                          "children": [
+                            {
+                              "name": "Cure",
+                              "path": "/Text[@Name=\"Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_51_42",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:51:42\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_51_42",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:51:42\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_SQA_PTT_ETB_NPI_build_SQA_PTT_062mil_PS_NA_AIR__SO172967_CID13473_WW13_0_R4_AGR___Cure_5Reads",
+                          "path": "/Custom[@Name=\"PI-SQA PTT ETB NPI build SQA_PTT_062mil_PS_NA_AIR  SO172967 CID13473 WW13.0 R4 AGR - Cure 5Reads\"]",
+                          "children": [
+                            {
+                              "name": "PI_SQA_PTT_ETB_NPI_build_SQA_PTT_062mil_PS_NA_AIR__SO172967_CID13473_WW13_0_R4_AGR___Cure_5Reads",
+                              "path": "/Text[@Name=\"PI-SQA PTT ETB NPI build SQA_PTT_062mil_PS_NA_AIR  SO172967 CID13473 WW13.0 R4 AGR - Cure 5Reads\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4208_Print_Portrait_T10_Cure",
+                          "path": "/Custom[@Name=\"PS2G v4208 Print Portrait T10 Cure\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4208_Print_Portrait_T10_Cure",
+                              "path": "/Text[@Name=\"PS2G v4208 Print Portrait T10 Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "JT_Oven",
+                          "path": "/Custom[@Name=\"JT Oven\"]",
+                          "children": [
+                            {
+                              "name": "JT_Oven",
+                              "path": "/Text[@Name=\"JT Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Thu_Aug_20_2020_11_20_45",
+                          "path": "/Custom[@Name=\"Thu Aug 20 2020 11:20:45\"]",
+                          "children": [
+                            {
+                              "name": "Thu_Aug_20_2020_11_20_45",
+                              "path": "/Text[@Name=\"Thu Aug 20 2020 11:20:45\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "76_",
+                          "path": "/Custom[@Name=\"76%\"]",
+                          "children": [
+                            {
+                              "name": "76_",
+                              "path": "/Text[@Name=\"76%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Reflow_DIFFERENT_7_Specs",
+                          "path": "/Custom[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                          "children": [
+                            {
+                              "name": "Reflow_DIFFERENT_7_Specs",
+                              "path": "/Text[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Cure",
+                          "path": "/Custom[@Name=\"Cure\"]",
+                          "children": [
+                            {
+                              "name": "Cure",
+                              "path": "/Text[@Name=\"Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_52_48",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:52:48\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_52_48",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:52:48\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_SQA_PTT_ETB_NPI_build_SQA_PTT_062mil_PS_NA_AIR__SO172967_CID13473_WW13_0_R4_AGR___Cure_5Reads",
+                          "path": "/Custom[@Name=\"PI-SQA PTT ETB NPI build SQA_PTT_062mil_PS_NA_AIR  SO172967 CID13473 WW13.0 R4 AGR - Cure 5Reads\"]",
+                          "children": [
+                            {
+                              "name": "PI_SQA_PTT_ETB_NPI_build_SQA_PTT_062mil_PS_NA_AIR__SO172967_CID13473_WW13_0_R4_AGR___Cure_5Reads",
+                              "path": "/Text[@Name=\"PI-SQA PTT ETB NPI build SQA_PTT_062mil_PS_NA_AIR  SO172967 CID13473 WW13.0 R4 AGR - Cure 5Reads\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4401_Print_Landscape_T10_Semi",
+                          "path": "/Custom[@Name=\"PS2G v4401 Print Landscape T10 Semi\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4401_Print_Landscape_T10_Semi",
+                              "path": "/Text[@Name=\"PS2G v4401 Print Landscape T10 Semi\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Test_oven",
+                          "path": "/Custom[@Name=\"Test oven\"]",
+                          "children": [
+                            {
+                              "name": "Test_oven",
+                              "path": "/Text[@Name=\"Test oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tue_Dec_07_2021_17_16_12",
+                          "path": "/Custom[@Name=\"Tue Dec 07 2021 17:16:12\"]",
+                          "children": [
+                            {
+                              "name": "Tue_Dec_07_2021_17_16_12",
+                              "path": "/Text[@Name=\"Tue Dec 07 2021 17:16:12\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "87_",
+                          "path": "/Custom[@Name=\"87%\"]",
+                          "children": [
+                            {
+                              "name": "87_",
+                              "path": "/Text[@Name=\"87%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Process_Spec_MaxDeltaT_3_DIFF",
+                          "path": "/Custom[@Name=\"Process Spec MaxDeltaT 3 DIFF\"]",
+                          "children": [
+                            {
+                              "name": "Process_Spec_MaxDeltaT_3_DIFF",
+                              "path": "/Text[@Name=\"Process Spec MaxDeltaT 3 DIFF\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Semiconductor",
+                          "path": "/Custom[@Name=\"Semiconductor\"]",
+                          "children": [
+                            {
+                              "name": "Semiconductor",
+                              "path": "/Text[@Name=\"Semiconductor\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_53_20",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:53:20\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_53_20",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:53:20\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_v4502T_PS824_SEMI_2",
+                          "path": "/Custom[@Name=\"PI-PS2G v4502T PS824 SEMI 2\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_v4502T_PS824_SEMI_2",
+                              "path": "/Text[@Name=\"PI-PS2G v4502T PS824 SEMI 2\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4401_Print_Portrait_T8_Cure",
+                          "path": "/Custom[@Name=\"PS2G v4401 Print Portrait T8 Cure\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4401_Print_Portrait_T8_Cure",
+                              "path": "/Text[@Name=\"PS2G v4401 Print Portrait T8 Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "XPM2",
+                          "path": "/Custom[@Name=\"XPM2\"]",
+                          "children": [
+                            {
+                              "name": "XPM2",
+                              "path": "/Text[@Name=\"XPM2\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Fri_Mar_12_2021_03_16_18",
+                          "path": "/Custom[@Name=\"Fri Mar 12 2021 03:16:18\"]",
+                          "children": [
+                            {
+                              "name": "Fri_Mar_12_2021_03_16_18",
+                              "path": "/Text[@Name=\"Fri Mar 12 2021 03:16:18\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "100_",
+                          "path": "/Custom[@Name=\"100%\"]",
+                          "children": [
+                            {
+                              "name": "100_",
+                              "path": "/Text[@Name=\"100%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Reflow_DIFFERENT_7_Specs",
+                          "path": "/Custom[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                          "children": [
+                            {
+                              "name": "Reflow_DIFFERENT_7_Specs",
+                              "path": "/Text[@Name=\"Reflow DIFFERENT 7 Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Cure",
+                          "path": "/Custom[@Name=\"Cure\"]",
+                          "children": [
+                            {
+                              "name": "Cure",
+                              "path": "/Text[@Name=\"Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_53_40",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:53:40\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_53_40",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:53:40\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_v4401_X5_Trans_Cure",
+                          "path": "/Custom[@Name=\"PI-PS2G v4401 X5 Trans Cure\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_v4401_X5_Trans_Cure",
+                              "path": "/Text[@Name=\"PI-PS2G v4401 X5 Trans Cure\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4401_Print_Portrait_T9_Semi",
+                          "path": "/Custom[@Name=\"PS2G v4401 Print Portrait T9 Semi\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4401_Print_Portrait_T9_Semi",
+                              "path": "/Text[@Name=\"PS2G v4401 Print Portrait T9 Semi\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "JT_Oven",
+                          "path": "/Custom[@Name=\"JT Oven\"]",
+                          "children": [
+                            {
+                              "name": "JT_Oven",
+                              "path": "/Text[@Name=\"JT Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Aug_19_2020_14_23_00",
+                          "path": "/Custom[@Name=\"Wed Aug 19 2020 14:23:00\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Aug_19_2020_14_23_00",
+                              "path": "/Text[@Name=\"Wed Aug 19 2020 14:23:00\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "76_",
+                          "path": "/Custom[@Name=\"76%\"]",
+                          "children": [
+                            {
+                              "name": "76_",
+                              "path": "/Text[@Name=\"76%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Reflow_Specs",
+                          "path": "/Custom[@Name=\"Reflow Specs\"]",
+                          "children": [
+                            {
+                              "name": "Reflow_Specs",
+                              "path": "/Text[@Name=\"Reflow Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Semiconductor",
+                          "path": "/Custom[@Name=\"Semiconductor\"]",
+                          "children": [
+                            {
+                              "name": "Semiconductor",
+                              "path": "/Text[@Name=\"Semiconductor\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_54_04",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:54:04\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_54_04",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:54:04\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_PS2G_v4208_SPS_Datalog___Semi",
+                          "path": "/Custom[@Name=\"PI-PS2G v4208 SPS Datalog - Semi\"]",
+                          "children": [
+                            {
+                              "name": "PI_PS2G_v4208_SPS_Datalog___Semi",
+                              "path": "/Text[@Name=\"PI-PS2G v4208 SPS Datalog - Semi\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v4401_Print_Portrait_T9_Semi",
+                          "path": "/Custom[@Name=\"PS2G v4401 Print Portrait T9 Semi\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v4401_Print_Portrait_T9_Semi",
+                              "path": "/Text[@Name=\"PS2G v4401 Print Portrait T9 Semi\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "XPM2",
+                          "path": "/Custom[@Name=\"XPM2\"]",
+                          "children": [
+                            {
+                              "name": "XPM2",
+                              "path": "/Text[@Name=\"XPM2\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Thu_Mar_11_2021_09_28_19",
+                          "path": "/Custom[@Name=\"Thu Mar 11 2021 09:28:19\"]",
+                          "children": [
+                            {
+                              "name": "Thu_Mar_11_2021_09_28_19",
+                              "path": "/Text[@Name=\"Thu Mar 11 2021 09:28:19\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "77_",
+                          "path": "/Custom[@Name=\"77%\"]",
+                          "children": [
+                            {
+                              "name": "77_",
+                              "path": "/Text[@Name=\"77%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Custom_Spec",
+                          "path": "/Custom[@Name=\"Custom Spec\"]",
+                          "children": [
+                            {
+                              "name": "Custom_Spec",
+                              "path": "/Text[@Name=\"Custom Spec\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Semiconductor",
+                          "path": "/Custom[@Name=\"Semiconductor\"]",
+                          "children": [
+                            {
+                              "name": "Semiconductor",
+                              "path": "/Text[@Name=\"Semiconductor\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Nov_05_2025_09_56_38",
+                          "path": "/Custom[@Name=\"Wed Nov 05 2025 09:56:38\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Nov_05_2025_09_56_38",
+                              "path": "/Text[@Name=\"Wed Nov 05 2025 09:56:38\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PI_TGL_U_AEP_TGLUAEP_028_PS_PA_N2__SO173424_WW18_6_Run1_RQ_PS2G_v4401_SPS_Data___Semi",
+                          "path": "/Custom[@Name=\"PI-TGL_U_AEP TGLUAEP_028_PS_PA_N2  SO173424 WW18.6 Run1 RQ PS2G v4401 SPS Data - Semi\"]",
+                          "children": [
+                            {
+                              "name": "PI_TGL_U_AEP_TGLUAEP_028_PS_PA_N2__SO173424_WW18_6_Run1_RQ_PS2G_v4401_SPS_Data___Semi",
+                              "path": "/Text[@Name=\"PI-TGL_U_AEP TGLUAEP_028_PS_PA_N2  SO173424 WW18.6 Run1 RQ PS2G v4401 SPS Data - Semi\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v45_Print_Landscape_T16_SRA",
+                          "path": "/Custom[@Name=\"PS2G v45 Print Landscape T16 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v45_Print_Landscape_T16_SRA",
+                              "path": "/Text[@Name=\"PS2G v45 Print Landscape T16 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "JT_Oven",
+                          "path": "/Custom[@Name=\"JT Oven\"]",
+                          "children": [
+                            {
+                              "name": "JT_Oven",
+                              "path": "/Text[@Name=\"JT Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_May_18_2022_15_13_23",
+                          "path": "/Custom[@Name=\"Wed May 18 2022 15:13:23\"]",
+                          "children": [
+                            {
+                              "name": "Wed_May_18_2022_15_13_23",
+                              "path": "/Text[@Name=\"Wed May 18 2022 15:13:23\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "100_",
+                          "path": "/Custom[@Name=\"100%\"]",
+                          "children": [
+                            {
+                              "name": "100_",
+                              "path": "/Text[@Name=\"100%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Specs",
+                          "path": "/Custom[@Name=\"SRA Specs\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Specs",
+                              "path": "/Text[@Name=\"SRA Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_34",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_34",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PSv45_SRA_HTI_5",
+                          "path": "/Custom[@Name=\"PSv45 SRA HTI 5\"]",
+                          "children": [
+                            {
+                              "name": "PSv45_SRA_HTI_5",
+                              "path": "/Text[@Name=\"PSv45 SRA HTI 5\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "PS2G_Profile2",
+                      "path": "/DataItem[@Name=\"PS2G.Profile2\"]",
+                      "children": [
+                        {
+                          "name": "Unnamed",
+                          "path": "/HeaderItem[0]",
+                          "children": [
+                            {
+                              "name": "PART_TopHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_TopHeaderGripper\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "PART_BottomHeaderGripper",
+                              "path": "/Thumb[@AutomationId=\"PART_BottomHeaderGripper\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_v45_Print_Landscape_T17_SRA",
+                          "path": "/Custom[@Name=\"PS2G v45 Print Landscape T17 SRA\"]",
+                          "children": [
+                            {
+                              "name": "PS2G_v45_Print_Landscape_T17_SRA",
+                              "path": "/Text[@Name=\"PS2G v45 Print Landscape T17 SRA\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "JT_Oven",
+                          "path": "/Custom[@Name=\"JT Oven\"]",
+                          "children": [
+                            {
+                              "name": "JT_Oven",
+                              "path": "/Text[@Name=\"JT Oven\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_May_18_2022_14_49_12",
+                          "path": "/Custom[@Name=\"Wed May 18 2022 14:49:12\"]",
+                          "children": [
+                            {
+                              "name": "Wed_May_18_2022_14_49_12",
+                              "path": "/Text[@Name=\"Wed May 18 2022 14:49:12\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "100_",
+                          "path": "/Custom[@Name=\"100%\"]",
+                          "children": [
+                            {
+                              "name": "100_",
+                              "path": "/Text[@Name=\"100%\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "SRA_Specs",
+                          "path": "/Custom[@Name=\"SRA Specs\"]",
+                          "children": [
+                            {
+                              "name": "SRA_Specs",
+                              "path": "/Text[@Name=\"SRA Specs\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Smart_Reflow_Analyzer",
+                          "path": "/Custom[@Name=\"Smart Reflow Analyzer\"]",
+                          "children": [
+                            {
+                              "name": "Smart_Reflow_Analyzer",
+                              "path": "/Text[@Name=\"Smart Reflow Analyzer\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Wed_Oct_29_2025_17_48_34",
+                          "path": "/Custom[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                          "children": [
+                            {
+                              "name": "Wed_Oct_29_2025_17_48_34",
+                              "path": "/Text[@Name=\"Wed Oct 29 2025 17:48:34\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PSv45_SRA_HTI_4",
+                          "path": "/Custom[@Name=\"PSv45 SRA HTI 4\"]",
+                          "children": [
+                            {
+                              "name": "PSv45_SRA_HTI_4",
+                              "path": "/Text[@Name=\"PSv45 SRA HTI 4\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Unnamed",
+                          "path": "/Custom[0]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Show",
+                  "path": "/Text[@Name=\"Show\"]",
+                  "children": []
+                },
+                {
+                  "name": "Select_PART_PageSizesCombobox",
+                  "path": "/ComboBox[@AutomationId=\"PART_PageSizesCombobox\"]",
+                  "children": [
+                    {
+                      "name": "Input_PART_EditableTextBox",
+                      "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                      "children": [
+                        {
+                          "name": "VerticalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "HorizontalScrollBar",
+                          "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "20",
+                      "path": "/ListItem[@Name=\"20\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "50",
+                      "path": "/ListItem[@Name=\"50\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "100",
+                      "path": "/ListItem[@Name=\"100\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "500",
+                      "path": "/ListItem[@Name=\"500\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Entries",
+                  "path": "/Text[@Name=\"Entries\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_Btn_DeleteProfile",
+                  "path": "/Button[@AutomationId=\"Btn_DeleteProfile\"]",
+                  "children": [
+                    {
+                      "name": "Delete",
+                      "path": "/Text[@Name=\"Delete\"]",
+                      "children": [
+                        {
+                          "name": "Delete",
+                          "path": "/Text[@Name=\"Delete\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_ButtonSave",
+                  "path": "/Button[@AutomationId=\"ButtonSave\"]",
+                  "children": [
+                    {
+                      "name": "Save",
+                      "path": "/Text[@Name=\"Save\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Click_PART_FirstPageButton",
+                  "path": "/Button[@AutomationId=\"PART_FirstPageButton\"]",
+                  "children": [
+                    {
+                      "name": "First",
+                      "path": "/Text[@Name=\"First\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Separator[0]",
+                  "children": []
+                },
+                {
+                  "name": "Click_PART_PreviousPageButton",
+                  "path": "/Button[@AutomationId=\"PART_PreviousPageButton\"]",
+                  "children": [
+                    {
+                      "name": "Previous",
+                      "path": "/Text[@Name=\"Previous\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "PART_PageTextBox",
+                  "path": "/Text[@AutomationId=\"PART_PageTextBox\"]",
+                  "children": [
+                    {
+                      "name": "1",
+                      "path": "/Text[@Name=\"1\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "of",
+                  "path": "/Text[@Name=\"of\"]",
+                  "children": []
+                },
+                {
+                  "name": "5",
+                  "path": "/Text[@Name=\"5\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_PART_NextPageButton",
+                  "path": "/Button[@AutomationId=\"PART_NextPageButton\"]",
+                  "children": [
+                    {
+                      "name": "Next",
+                      "path": "/Text[@Name=\"Next\"]",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Separator[0]",
+                  "children": []
+                },
+                {
+                  "name": "Click_PART_LastPageButton",
+                  "path": "/Button[@AutomationId=\"PART_LastPageButton\"]",
+                  "children": [
+                    {
+                      "name": "Last",
+                      "path": "/Text[@Name=\"Last\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Units_of_Measure",
+      "path": "/Text[@Name=\"Units of Measure\"]",
+      "children": [
+        {
+          "name": "Units_of_Measure",
+          "path": "/Text[@Name=\"Units of Measure\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Separator[0]",
+      "children": []
+    },
+    {
+      "name": "Lbl_ConveyorSpeed",
+      "path": "/Text[@AutomationId=\"Lbl_ConveyorSpeed\"]",
+      "children": [
+        {
+          "name": "Conveyor_Speed_",
+          "path": "/Text[@Name=\"Conveyor Speed:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_ConveyorSpeed",
+      "path": "/ComboBox[@AutomationId=\"Cmb_ConveyorSpeed\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Lbl_Weight",
+      "path": "/Text[@AutomationId=\"Lbl_Weight\"]",
+      "children": [
+        {
+          "name": "Weight_",
+          "path": "/Text[@Name=\"Weight:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_Weight",
+      "path": "/ComboBox[@AutomationId=\"Cmb_Weight\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Lbl_Distance",
+      "path": "/Text[@AutomationId=\"Lbl_Distance\"]",
+      "children": [
+        {
+          "name": "Distance_",
+          "path": "/Text[@Name=\"Distance:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_Distance",
+      "path": "/ComboBox[@AutomationId=\"Cmb_Distance\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Lbl_Temperature",
+      "path": "/Text[@AutomationId=\"Lbl_Temperature\"]",
+      "children": [
+        {
+          "name": "Temperature_",
+          "path": "/Text[@Name=\"Temperature:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_Temperature",
+      "path": "/ComboBox[@AutomationId=\"Cmb_Temperature\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Conveyor_Decimal_Display",
+      "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+      "children": [
+        {
+          "name": "Conveyor_Decimal_Display",
+          "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Separator[0]",
+      "children": []
+    },
+    {
+      "name": "Inches_min_",
+      "path": "/Text[@Name=\"Inches/min:\"]",
+      "children": [
+        {
+          "name": "Inches_min_",
+          "path": "/Text[@Name=\"Inches/min:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_InchesMin",
+      "path": "/ComboBox[@AutomationId=\"Cmb_InchesMin\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Feet_min_",
+      "path": "/Text[@Name=\"Feet/min:\"]",
+      "children": [
+        {
+          "name": "Feet_min_",
+          "path": "/Text[@Name=\"Feet/min:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_FeetMin",
+      "path": "/ComboBox[@AutomationId=\"Cmb_FeetMin\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Mm_min_",
+      "path": "/Text[@Name=\"Mm/min:\"]",
+      "children": [
+        {
+          "name": "Mm_min_",
+          "path": "/Text[@Name=\"Mm/min:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_MmMin",
+      "path": "/ComboBox[@AutomationId=\"Cmb_MmMin\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Cm_min_",
+      "path": "/Text[@Name=\"Cm/min:\"]",
+      "children": [
+        {
+          "name": "Cm_min_",
+          "path": "/Text[@Name=\"Cm/min:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_CmMin",
+      "path": "/ComboBox[@AutomationId=\"Cmb_CmMin\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Meters_min_",
+      "path": "/Text[@Name=\"Meters/min:\"]",
+      "children": [
+        {
+          "name": "Meters_min_",
+          "path": "/Text[@Name=\"Meters/min:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_MetersMin",
+      "path": "/ComboBox[@AutomationId=\"Cmb_MetersMin\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Zone_Setpoint_Decimal_Display",
+      "path": "/Text[@Name=\"Zone Setpoint Decimal Display\"]",
+      "children": []
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Separator[0]",
+      "children": []
+    },
+    {
+      "name": "Degree_Celsius_",
+      "path": "/Text[@Name=\"Degree Celsius:\"]",
+      "children": [
+        {
+          "name": "Degree_Celsius_",
+          "path": "/Text[@Name=\"Degree Celsius:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_DegreeCelcius",
+      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeCelcius\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Degree_Fahrenheit_",
+      "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+      "children": [
+        {
+          "name": "Degree_Fahrenheit_",
+          "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_DegreeFahrenheit",
+      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeFahrenheit\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Zone_Length_Decimal_Display",
+      "path": "/Text[@Name=\"Zone Length Decimal Display\"]",
+      "children": []
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Separator[0]",
+      "children": []
+    },
+    {
+      "name": "Length_",
+      "path": "/Text[@Name=\"Length:\"]",
+      "children": [
+        {
+          "name": "Length_",
+          "path": "/Text[@Name=\"Length:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_ZoneLength",
+      "path": "/ComboBox[@AutomationId=\"Cmb_ZoneLength\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Statistic_Decimal_Display",
+      "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+      "children": [
+        {
+          "name": "Statistic_Decimal_Display",
+          "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Separator[0]",
+      "children": []
+    },
+    {
+      "name": "Statistic_",
+      "path": "/Text[@Name=\"Statistic:\"]",
+      "children": [
+        {
+          "name": "Statistic_",
+          "path": "/Text[@Name=\"Statistic:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Select_Cmb_Statistic",
+      "path": "/ComboBox[@AutomationId=\"Cmb_Statistic\"]",
+      "children": [
+        {
+          "name": "Input_PART_EditableTextBox",
+          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+          "children": [
+            {
+              "name": "VerticalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+              "children": []
+            },
+            {
+              "name": "HorizontalScrollBar",
+              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        },
+        {
+          "name": "PS2G_Unit",
+          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

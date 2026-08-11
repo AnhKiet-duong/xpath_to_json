@@ -1,0 +1,28 @@
+using FlaUI.Core.AutomationElements;
+
+namespace XPathScanner.Core.Services
+{
+    public static class XPathBuilder
+    {
+        // Sinh 1 đoạn xpath (segment) cho MỘT phần tử, ưu tiên AutomationId > Name > index.
+        public static string BuildSegment(AutomationElement element, int siblingIndexInSameType)
+        {
+            string controlType = element.Properties.ControlType.IsSupported
+                ? element.Properties.ControlType.Value.ToString()
+                : "Element";
+
+            string automationId = element.Properties.AutomationId.ValueOrDefault ?? "";
+            string name = element.Properties.Name.ValueOrDefault ?? "";
+
+            if (!string.IsNullOrWhiteSpace(automationId))
+                return $"{controlType}[@AutomationId=\"{Escape(automationId)}\"]";
+
+            if (!string.IsNullOrWhiteSpace(name))
+                return $"{controlType}[@Name=\"{Escape(name)}\"]";
+
+            return $"{controlType}[{siblingIndexInSameType}]";
+        }
+
+        private static string Escape(string input) => input.Replace("\"", "\\\"");
+    }
+}

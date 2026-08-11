@@ -1,0 +1,3 @@
+G:\Xpath to Json Project\publish\XPathScanner.App.pdb
+G:\Xpath to Json Project\publish\XPathScanner.Core.pdb
+G:\Xpath to Json Project\publish\XPathScanner.App.exe

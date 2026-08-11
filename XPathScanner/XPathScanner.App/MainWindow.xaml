@@ -1,0 +1,55 @@
+﻿<Window x:Class="XPathScanner.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="XPath Scanner" Height="680" Width="980"
+        Icon="Assets/app-icon.ico"
+        SourceInitialized="Window_SourceInitialized">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Hàng 1: chọn ứng dụng -->
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,8">
+            <ComboBox x:Name="AppComboBox" Width="350" DisplayMemberPath="WindowTitle"/>
+            <Button x:Name="RefreshButton" Content="Làm mới danh sách" Margin="10,0,0,0" Click="RefreshButton_Click"/>
+        </StackPanel>
+
+        <!-- Hàng 2: tên màn hình + root anchor path -->
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="0,0,0,8">
+            <TextBlock Text="Tên màn hình:" VerticalAlignment="Center"/>
+            <TextBox x:Name="ScreenNameTextBox" Width="200" Margin="5,0,15,0"/>
+            <TextBlock Text="Root anchor path:" VerticalAlignment="Center"/>
+            <TextBox x:Name="RootAnchorTextBox" Width="300" Margin="5,0,0,0"/>
+            <Button x:Name="PickAnchorButton" Content="Chọn gốc (Ctrl+R)" Margin="8,0,0,0" Click="PickAnchorButton_Click"/>
+        </StackPanel>
+
+        <!-- Hàng 3: cây kết quả quét (double-click đổi tên, kéo-thả sắp xếp) -->
+        <TreeView x:Name="ResultTreeView" Grid.Row="3"
+                  MouseDoubleClick="ResultTreeView_MouseDoubleClick"
+                  AllowDrop="True"
+                  PreviewMouseLeftButtonDown="ResultTreeView_PreviewMouseLeftButtonDown"
+                  PreviewMouseMove="ResultTreeView_PreviewMouseMove"
+                  DragOver="ResultTreeView_DragOver"
+                  DragLeave="ResultTreeView_DragLeave"
+                  Drop="ResultTreeView_Drop"/>
+
+        <!-- Hàng 4: các nút thao tác -->
+        <StackPanel Orientation="Horizontal" Grid.Row="4" Margin="0,10,0,10">
+            <Button x:Name="ScanButton" Content="Quét" Width="90" Click="ScanButton_Click"/>
+            <Button x:Name="SaveNewButton" Content="Lưu JSON mới" Width="120" Margin="10,0,0,0" Click="SaveNewButton_Click"/>
+            <Button x:Name="UpdateExistingButton" Content="Cập nhật JSON hiện có" Width="170" Margin="10,0,0,0" Click="UpdateExistingButton_Click"/>
+            <Button x:Name="ParameterizeButton" Content="Tham số hoá {}" Width="120" Margin="10,0,0,0" Click="ParameterizeButton_Click"/>
+            <Button x:Name="SetAsRootButton" Content="Đặt node đang chọn làm Root" Width="190" Margin="10,0,0,0" Click="SetAsRootButton_Click"/>
+            <Button x:Name="CleanupButton" Content="Xoá node lỗi thời" Width="130" Margin="10,0,0,0" Click="CleanupButton_Click"/>
+        </StackPanel>
+
+        <!-- Hàng 5: log -->
+        <TextBox x:Name="LogTextBox" Grid.Row="5" Height="90" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"/>
+    </Grid>
+</Window>

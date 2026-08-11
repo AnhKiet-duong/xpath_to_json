@@ -1,0 +1,3400 @@
+{
+  "name": "TAS",
+  "path": "",
+  "children": [
+    {
+      "name": "Unnamed",
+      "path": "/Text[0]",
+      "children": []
+    },
+    {
+      "name": "Click_btnClose",
+      "path": "/Button[@AutomationId=\"btnClose\"]",
+      "children": []
+    },
+    {
+      "name": "Enter_Password_",
+      "path": "/Text[@Name=\"Enter Password:\"]",
+      "children": [
+        {
+          "name": "Enter_Password_",
+          "path": "/Text[@Name=\"Enter Password:\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Input_pwBox",
+      "path": "/Edit[@AutomationId=\"pwBox\"]",
+      "children": [
+        {
+          "name": "VerticalScrollBar",
+          "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+          "children": []
+        },
+        {
+          "name": "HorizontalScrollBar",
+          "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Click_Close",
+      "path": "/Button[@Name=\"Close\"]",
+      "children": [
+        {
+          "name": "Close",
+          "path": "/Text[@Name=\"Close\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Click_btnOkModal",
+      "path": "/Button[@AutomationId=\"btnOkModal\"]",
+      "children": [
+        {
+          "name": "OK",
+          "path": "/Text[@Name=\"OK\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Custom[0]",
+      "children": [
+        {
+          "name": "Tab_settingTabs",
+          "path": "/Tab[@AutomationId=\"settingTabs\"]",
+          "children": [
+            {
+              "name": "Tab_PS2G_SettingTabItemViewModel",
+              "path": "/TabItem[@Name=\"PS2G.SettingTabItemViewModel\"]",
+              "children": [
+                {
+                  "name": "Hardware",
+                  "path": "/Text[@Name=\"Hardware\"]",
+                  "children": []
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Custom[0]",
+                  "children": [
+                    {
+                      "name": "Units_of_Measure",
+                      "path": "/Text[@Name=\"Units of Measure\"]",
+                      "children": [
+                        {
+                          "name": "Units_of_Measure",
+                          "path": "/Text[@Name=\"Units of Measure\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Lbl_ConveyorSpeed",
+                      "path": "/Text[@AutomationId=\"Lbl_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Speed_",
+                          "path": "/Text[@Name=\"Conveyor Speed:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ConveyorSpeed",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Weight",
+                      "path": "/Text[@AutomationId=\"Lbl_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Weight_",
+                          "path": "/Text[@Name=\"Weight:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Weight",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Distance",
+                      "path": "/Text[@AutomationId=\"Lbl_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Distance_",
+                          "path": "/Text[@Name=\"Distance:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Distance",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Temperature",
+                      "path": "/Text[@AutomationId=\"Lbl_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Temperature_",
+                          "path": "/Text[@Name=\"Temperature:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Temperature",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Conveyor_Decimal_Display",
+                      "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Decimal_Display",
+                          "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Inches_min_",
+                      "path": "/Text[@Name=\"Inches/min:\"]",
+                      "children": [
+                        {
+                          "name": "Inches_min_",
+                          "path": "/Text[@Name=\"Inches/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_InchesMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_InchesMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Feet_min_",
+                      "path": "/Text[@Name=\"Feet/min:\"]",
+                      "children": [
+                        {
+                          "name": "Feet_min_",
+                          "path": "/Text[@Name=\"Feet/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_FeetMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_FeetMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mm_min_",
+                      "path": "/Text[@Name=\"Mm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Mm_min_",
+                          "path": "/Text[@Name=\"Mm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cm_min_",
+                      "path": "/Text[@Name=\"Cm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Cm_min_",
+                          "path": "/Text[@Name=\"Cm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_CmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_CmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Meters_min_",
+                      "path": "/Text[@Name=\"Meters/min:\"]",
+                      "children": [
+                        {
+                          "name": "Meters_min_",
+                          "path": "/Text[@Name=\"Meters/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MetersMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MetersMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Setpoint_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Setpoint Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Degree_Celsius_",
+                      "path": "/Text[@Name=\"Degree Celsius:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Celsius_",
+                          "path": "/Text[@Name=\"Degree Celsius:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeCelcius",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeCelcius\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Degree_Fahrenheit_",
+                      "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Fahrenheit_",
+                          "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeFahrenheit",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeFahrenheit\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Length_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Length Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Length_",
+                      "path": "/Text[@Name=\"Length:\"]",
+                      "children": [
+                        {
+                          "name": "Length_",
+                          "path": "/Text[@Name=\"Length:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ZoneLength",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ZoneLength\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Statistic_Decimal_Display",
+                      "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_Decimal_Display",
+                          "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Statistic_",
+                      "path": "/Text[@Name=\"Statistic:\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_",
+                          "path": "/Text[@Name=\"Statistic:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Statistic",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Statistic\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tab_PS2G_SettingTabItemViewModel",
+              "path": "/TabItem[@Name=\"PS2G.SettingTabItemViewModel\"]",
+              "children": [
+                {
+                  "name": "Display",
+                  "path": "/Text[@Name=\"Display\"]",
+                  "children": []
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Custom[0]",
+                  "children": [
+                    {
+                      "name": "Units_of_Measure",
+                      "path": "/Text[@Name=\"Units of Measure\"]",
+                      "children": [
+                        {
+                          "name": "Units_of_Measure",
+                          "path": "/Text[@Name=\"Units of Measure\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Lbl_ConveyorSpeed",
+                      "path": "/Text[@AutomationId=\"Lbl_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Speed_",
+                          "path": "/Text[@Name=\"Conveyor Speed:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ConveyorSpeed",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Weight",
+                      "path": "/Text[@AutomationId=\"Lbl_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Weight_",
+                          "path": "/Text[@Name=\"Weight:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Weight",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Distance",
+                      "path": "/Text[@AutomationId=\"Lbl_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Distance_",
+                          "path": "/Text[@Name=\"Distance:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Distance",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Temperature",
+                      "path": "/Text[@AutomationId=\"Lbl_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Temperature_",
+                          "path": "/Text[@Name=\"Temperature:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Temperature",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Conveyor_Decimal_Display",
+                      "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Decimal_Display",
+                          "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Inches_min_",
+                      "path": "/Text[@Name=\"Inches/min:\"]",
+                      "children": [
+                        {
+                          "name": "Inches_min_",
+                          "path": "/Text[@Name=\"Inches/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_InchesMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_InchesMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Feet_min_",
+                      "path": "/Text[@Name=\"Feet/min:\"]",
+                      "children": [
+                        {
+                          "name": "Feet_min_",
+                          "path": "/Text[@Name=\"Feet/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_FeetMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_FeetMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mm_min_",
+                      "path": "/Text[@Name=\"Mm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Mm_min_",
+                          "path": "/Text[@Name=\"Mm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cm_min_",
+                      "path": "/Text[@Name=\"Cm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Cm_min_",
+                          "path": "/Text[@Name=\"Cm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_CmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_CmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Meters_min_",
+                      "path": "/Text[@Name=\"Meters/min:\"]",
+                      "children": [
+                        {
+                          "name": "Meters_min_",
+                          "path": "/Text[@Name=\"Meters/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MetersMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MetersMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Setpoint_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Setpoint Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Degree_Celsius_",
+                      "path": "/Text[@Name=\"Degree Celsius:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Celsius_",
+                          "path": "/Text[@Name=\"Degree Celsius:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeCelcius",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeCelcius\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Degree_Fahrenheit_",
+                      "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Fahrenheit_",
+                          "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeFahrenheit",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeFahrenheit\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Length_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Length Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Length_",
+                      "path": "/Text[@Name=\"Length:\"]",
+                      "children": [
+                        {
+                          "name": "Length_",
+                          "path": "/Text[@Name=\"Length:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ZoneLength",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ZoneLength\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Statistic_Decimal_Display",
+                      "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_Decimal_Display",
+                          "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Statistic_",
+                      "path": "/Text[@Name=\"Statistic:\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_",
+                          "path": "/Text[@Name=\"Statistic:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Statistic",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Statistic\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tab_PS2G_SettingTabItemViewModel",
+              "path": "/TabItem[@Name=\"PS2G.SettingTabItemViewModel\"]",
+              "children": [
+                {
+                  "name": "Machine_Configuration",
+                  "path": "/Text[@Name=\"Machine Configuration\"]",
+                  "children": []
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Custom[0]",
+                  "children": [
+                    {
+                      "name": "Units_of_Measure",
+                      "path": "/Text[@Name=\"Units of Measure\"]",
+                      "children": [
+                        {
+                          "name": "Units_of_Measure",
+                          "path": "/Text[@Name=\"Units of Measure\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Lbl_ConveyorSpeed",
+                      "path": "/Text[@AutomationId=\"Lbl_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Speed_",
+                          "path": "/Text[@Name=\"Conveyor Speed:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ConveyorSpeed",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Weight",
+                      "path": "/Text[@AutomationId=\"Lbl_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Weight_",
+                          "path": "/Text[@Name=\"Weight:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Weight",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Distance",
+                      "path": "/Text[@AutomationId=\"Lbl_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Distance_",
+                          "path": "/Text[@Name=\"Distance:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Distance",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Temperature",
+                      "path": "/Text[@AutomationId=\"Lbl_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Temperature_",
+                          "path": "/Text[@Name=\"Temperature:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Temperature",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Conveyor_Decimal_Display",
+                      "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Decimal_Display",
+                          "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Inches_min_",
+                      "path": "/Text[@Name=\"Inches/min:\"]",
+                      "children": [
+                        {
+                          "name": "Inches_min_",
+                          "path": "/Text[@Name=\"Inches/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_InchesMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_InchesMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Feet_min_",
+                      "path": "/Text[@Name=\"Feet/min:\"]",
+                      "children": [
+                        {
+                          "name": "Feet_min_",
+                          "path": "/Text[@Name=\"Feet/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_FeetMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_FeetMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mm_min_",
+                      "path": "/Text[@Name=\"Mm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Mm_min_",
+                          "path": "/Text[@Name=\"Mm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cm_min_",
+                      "path": "/Text[@Name=\"Cm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Cm_min_",
+                          "path": "/Text[@Name=\"Cm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_CmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_CmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Meters_min_",
+                      "path": "/Text[@Name=\"Meters/min:\"]",
+                      "children": [
+                        {
+                          "name": "Meters_min_",
+                          "path": "/Text[@Name=\"Meters/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MetersMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MetersMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Setpoint_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Setpoint Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Degree_Celsius_",
+                      "path": "/Text[@Name=\"Degree Celsius:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Celsius_",
+                          "path": "/Text[@Name=\"Degree Celsius:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeCelcius",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeCelcius\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Degree_Fahrenheit_",
+                      "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Fahrenheit_",
+                          "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeFahrenheit",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeFahrenheit\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Length_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Length Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Length_",
+                      "path": "/Text[@Name=\"Length:\"]",
+                      "children": [
+                        {
+                          "name": "Length_",
+                          "path": "/Text[@Name=\"Length:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ZoneLength",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ZoneLength\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Statistic_Decimal_Display",
+                      "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_Decimal_Display",
+                          "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Statistic_",
+                      "path": "/Text[@Name=\"Statistic:\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_",
+                          "path": "/Text[@Name=\"Statistic:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Statistic",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Statistic\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Tab_PS2G_SettingTabItemViewModel",
+              "path": "/TabItem[@Name=\"PS2G.SettingTabItemViewModel\"]",
+              "children": [
+                {
+                  "name": "Features_Options",
+                  "path": "/Text[@Name=\"Features/Options\"]",
+                  "children": []
+                },
+                {
+                  "name": "Unnamed",
+                  "path": "/Custom[0]",
+                  "children": [
+                    {
+                      "name": "Units_of_Measure",
+                      "path": "/Text[@Name=\"Units of Measure\"]",
+                      "children": [
+                        {
+                          "name": "Units_of_Measure",
+                          "path": "/Text[@Name=\"Units of Measure\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Lbl_ConveyorSpeed",
+                      "path": "/Text[@AutomationId=\"Lbl_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Speed_",
+                          "path": "/Text[@Name=\"Conveyor Speed:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ConveyorSpeed",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ConveyorSpeed\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Weight",
+                      "path": "/Text[@AutomationId=\"Lbl_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Weight_",
+                          "path": "/Text[@Name=\"Weight:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Weight",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Weight\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Distance",
+                      "path": "/Text[@AutomationId=\"Lbl_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Distance_",
+                          "path": "/Text[@Name=\"Distance:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Distance",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Distance\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lbl_Temperature",
+                      "path": "/Text[@AutomationId=\"Lbl_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Temperature_",
+                          "path": "/Text[@Name=\"Temperature:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Temperature",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Temperature\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Conveyor_Decimal_Display",
+                      "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Conveyor_Decimal_Display",
+                          "path": "/Text[@Name=\"Conveyor Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Inches_min_",
+                      "path": "/Text[@Name=\"Inches/min:\"]",
+                      "children": [
+                        {
+                          "name": "Inches_min_",
+                          "path": "/Text[@Name=\"Inches/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_InchesMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_InchesMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Feet_min_",
+                      "path": "/Text[@Name=\"Feet/min:\"]",
+                      "children": [
+                        {
+                          "name": "Feet_min_",
+                          "path": "/Text[@Name=\"Feet/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_FeetMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_FeetMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mm_min_",
+                      "path": "/Text[@Name=\"Mm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Mm_min_",
+                          "path": "/Text[@Name=\"Mm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Cm_min_",
+                      "path": "/Text[@Name=\"Cm/min:\"]",
+                      "children": [
+                        {
+                          "name": "Cm_min_",
+                          "path": "/Text[@Name=\"Cm/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_CmMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_CmMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Meters_min_",
+                      "path": "/Text[@Name=\"Meters/min:\"]",
+                      "children": [
+                        {
+                          "name": "Meters_min_",
+                          "path": "/Text[@Name=\"Meters/min:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_MetersMin",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_MetersMin\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Setpoint_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Setpoint Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Degree_Celsius_",
+                      "path": "/Text[@Name=\"Degree Celsius:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Celsius_",
+                          "path": "/Text[@Name=\"Degree Celsius:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeCelcius",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeCelcius\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Degree_Fahrenheit_",
+                      "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                      "children": [
+                        {
+                          "name": "Degree_Fahrenheit_",
+                          "path": "/Text[@Name=\"Degree Fahrenheit:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_DegreeFahrenheit",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_DegreeFahrenheit\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Zone_Length_Decimal_Display",
+                      "path": "/Text[@Name=\"Zone Length Decimal Display\"]",
+                      "children": []
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Length_",
+                      "path": "/Text[@Name=\"Length:\"]",
+                      "children": [
+                        {
+                          "name": "Length_",
+                          "path": "/Text[@Name=\"Length:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_ZoneLength",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_ZoneLength\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Statistic_Decimal_Display",
+                      "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_Decimal_Display",
+                          "path": "/Text[@Name=\"Statistic Decimal Display\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Unnamed",
+                      "path": "/Separator[0]",
+                      "children": []
+                    },
+                    {
+                      "name": "Statistic_",
+                      "path": "/Text[@Name=\"Statistic:\"]",
+                      "children": [
+                        {
+                          "name": "Statistic_",
+                          "path": "/Text[@Name=\"Statistic:\"]",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Select_Cmb_Statistic",
+                      "path": "/ComboBox[@AutomationId=\"Cmb_Statistic\"]",
+                      "children": [
+                        {
+                          "name": "Input_PART_EditableTextBox",
+                          "path": "/Edit[@AutomationId=\"PART_EditableTextBox\"]",
+                          "children": [
+                            {
+                              "name": "VerticalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"VerticalScrollBar\"]",
+                              "children": []
+                            },
+                            {
+                              "name": "HorizontalScrollBar",
+                              "path": "/ScrollBar[@AutomationId=\"HorizontalScrollBar\"]",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        },
+                        {
+                          "name": "PS2G_Unit",
+                          "path": "/ListItem[@Name=\"PS2G.Unit\"]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Click_btn_Save",
+          "path": "/Button[@AutomationId=\"btn_Save\"]",
+          "children": [
+            {
+              "name": "Save",
+              "path": "/Text[@Name=\"Save\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_btn_Apply",
+          "path": "/Button[@AutomationId=\"btn_Apply\"]",
+          "children": [
+            {
+              "name": "Apply",
+              "path": "/Text[@Name=\"Apply\"]",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "KICLogo",
+      "path": "/Image[@AutomationId=\"KICLogo\"]",
+      "children": []
+    },
+    {
+      "name": "PrimaryMenuParent",
+      "path": "/List[@AutomationId=\"PrimaryMenuParent\"]",
+      "children": [
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_DashBoard",
+              "path": "/Button[@AutomationId=\"DashBoard\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Dashboard",
+                      "path": "/Text[@Name=\"Dashboard\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_DataSearch",
+              "path": "/Button[@AutomationId=\"DataSearch\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Data_Search",
+                      "path": "/Text[@Name=\"Data Search\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_SPC",
+              "path": "/Button[@AutomationId=\"SPC\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "SPC_Charts",
+                      "path": "/Text[@Name=\"SPC Charts\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_ProcessWindow",
+              "path": "/Button[@AutomationId=\"ProcessWindow\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Process_Window",
+                      "path": "/Text[@Name=\"Process Window\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_Run",
+              "path": "/Button[@AutomationId=\"Run\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Run",
+                      "path": "/Text[@Name=\"Run\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_Stacking",
+              "path": "/Button[@AutomationId=\"Stacking\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Stacking",
+                      "path": "/Text[@Name=\"Stacking\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PS2G_MenuEntity",
+          "path": "/ListItem[@Name=\"PS2G.MenuEntity\"]",
+          "children": [
+            {
+              "name": "Click_Setting",
+              "path": "/Button[@AutomationId=\"Setting\"]",
+              "children": [
+                {
+                  "name": "menuImage",
+                  "path": "/Image[@AutomationId=\"menuImage\"]",
+                  "children": []
+                },
+                {
+                  "name": "menuName",
+                  "path": "/Text[@AutomationId=\"menuName\"]",
+                  "children": [
+                    {
+                      "name": "Settings",
+                      "path": "/Text[@Name=\"Settings\"]",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_clockTime",
+      "path": "/Text[@AutomationId=\"_clockTime\"]",
+      "children": [
+        {
+          "name": "Aug_11_2026_09_01_26_AM",
+          "path": "/Text[@Name=\"Aug 11 2026 09:01:26 AM\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "version",
+      "path": "/Text[@AutomationId=\"version\"]",
+      "children": [
+        {
+          "name": "Thermal_Analysis_System_v1_3_0_2",
+          "path": "/Text[@Name=\"Thermal Analysis System v1.3.0.2\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "_dataPath",
+      "path": "/Text[@AutomationId=\"_dataPath\"]",
+      "children": [
+        {
+          "name": "Unnamed",
+          "path": "/Text[0]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Click_btnHelp",
+      "path": "/Button[@AutomationId=\"btnHelp\"]",
+      "children": []
+    },
+    {
+      "name": "Click_btnMinimize",
+      "path": "/Button[@AutomationId=\"btnMinimize\"]",
+      "children": []
+    },
+    {
+      "name": "Click_btnExit",
+      "path": "/Button[@AutomationId=\"btnExit\"]",
+      "children": []
+    },
+    {
+      "name": "message",
+      "path": "/Text[@AutomationId=\"message\"]",
+      "children": []
+    },
+    {
+      "name": "Click_Btn_Cancel",
+      "path": "/Button[@AutomationId=\"Btn_Cancel\"]",
+      "children": []
+    }
+  ]
+}

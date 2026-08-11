@@ -1,0 +1,650 @@
+{
+  "name": "New Noted",
+  "path": "",
+  "children": [
+    {
+      "name": "Text_editor",
+      "path": "/Pane[0]/Document[@Name=\"Text editor\"]",
+      "children": []
+    },
+    {
+      "name": "Tab_Tabs",
+      "path": "/Pane[0]/Pane[0]/Tab[@AutomationId=\"Tabs\"]",
+      "children": [
+        {
+          "name": "TabListView",
+          "path": "/List[@AutomationId=\"TabListView\"]",
+          "children": [
+            {
+              "name": "Tab_zzzzzzzz__Modified_",
+              "path": "/TabItem[@Name=\"zzzzzzzz. Modified.\"]",
+              "children": [
+                {
+                  "name": "zzzzzzzz",
+                  "path": "/Text[@Name=\"zzzzzzzz\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Tab_Untitled__Unmodified_",
+              "path": "/TabItem[@Name=\"Untitled. Unmodified.\"]",
+              "children": [
+                {
+                  "name": "Untitled",
+                  "path": "/Text[@Name=\"Untitled\"]",
+                  "children": []
+                },
+                {
+                  "name": "Click_CloseButton",
+                  "path": "/Button[@AutomationId=\"CloseButton\"]",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "Tab_ccccccc__Modified_",
+              "path": "/TabItem[@Name=\"ccccccc. Modified.\"]",
+              "children": [
+                {
+                  "name": "ccccccc",
+                  "path": "/Text[@Name=\"ccccccc\"]",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Click_AddButton",
+          "path": "/Button[@AutomationId=\"AddButton\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "MenuBar",
+          "path": "/MenuBar[@AutomationId=\"MenuBar\"]",
+          "children": [
+            {
+              "name": "File",
+              "path": "/MenuItem[@AutomationId=\"File\"]",
+              "children": []
+            },
+            {
+              "name": "Edit",
+              "path": "/MenuItem[@AutomationId=\"Edit\"]",
+              "children": []
+            },
+            {
+              "name": "View",
+              "path": "/MenuItem[@AutomationId=\"View\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Headings",
+          "path": "/Button[@Name=\"Headings\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Lists",
+          "path": "/Button[@Name=\"Lists\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Bold__Ctrl_B_",
+          "path": "/Button[@Name=\"Bold (Ctrl+B)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Italic__Ctrl_I_",
+          "path": "/Button[@Name=\"Italic (Ctrl+I)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Strikethrough__Ctrl_Shift_X_",
+          "path": "/Button[@Name=\"Strikethrough (Ctrl+Shift+X)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Link__Ctrl_K_",
+          "path": "/Button[@Name=\"Link (Ctrl+K)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Table",
+          "path": "/Button[@Name=\"Table\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Clear_formatting__Ctrl_Space_",
+          "path": "/Button[@Name=\"Clear formatting (Ctrl+Space)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_RewriteDropDownButton",
+          "path": "/Button[@AutomationId=\"RewriteDropDownButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_FREButton",
+          "path": "/Button[@AutomationId=\"FREButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_AvatarButton",
+          "path": "/Button[@AutomationId=\"AvatarButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_SettingsButton",
+          "path": "/Button[@AutomationId=\"SettingsButton\"]",
+          "children": []
+        },
+        {
+          "name": "PrivacyTeachingTip",
+          "path": "/Window[@AutomationId=\"PrivacyTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadDetailTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadDetailTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadLightTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadLightTeachingTip\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "TitleBar",
+      "path": "/TitleBar[@AutomationId=\"TitleBar\"]",
+      "children": [
+        {
+          "name": "SystemMenuBar",
+          "path": "/MenuBar[@AutomationId=\"SystemMenuBar\"]",
+          "children": [
+            {
+              "name": "System",
+              "path": "/MenuItem[@Name=\"System\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Minimize_Restore",
+          "path": "/Button[@AutomationId=\"Minimize-Restore\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Maximize_Restore",
+          "path": "/Button[@AutomationId=\"Maximize-Restore\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Close",
+          "path": "/Button[@AutomationId=\"Close\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "MenuBar",
+          "path": "/MenuBar[@AutomationId=\"MenuBar\"]",
+          "children": [
+            {
+              "name": "File",
+              "path": "/MenuItem[@AutomationId=\"File\"]",
+              "children": []
+            },
+            {
+              "name": "Edit",
+              "path": "/MenuItem[@AutomationId=\"Edit\"]",
+              "children": []
+            },
+            {
+              "name": "View",
+              "path": "/MenuItem[@AutomationId=\"View\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Headings",
+          "path": "/Button[@Name=\"Headings\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Lists",
+          "path": "/Button[@Name=\"Lists\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Bold__Ctrl_B_",
+          "path": "/Button[@Name=\"Bold (Ctrl+B)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Italic__Ctrl_I_",
+          "path": "/Button[@Name=\"Italic (Ctrl+I)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Strikethrough__Ctrl_Shift_X_",
+          "path": "/Button[@Name=\"Strikethrough (Ctrl+Shift+X)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Link__Ctrl_K_",
+          "path": "/Button[@Name=\"Link (Ctrl+K)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Table",
+          "path": "/Button[@Name=\"Table\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Clear_formatting__Ctrl_Space_",
+          "path": "/Button[@Name=\"Clear formatting (Ctrl+Space)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_RewriteDropDownButton",
+          "path": "/Button[@AutomationId=\"RewriteDropDownButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_FREButton",
+          "path": "/Button[@AutomationId=\"FREButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_AvatarButton",
+          "path": "/Button[@AutomationId=\"AvatarButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_SettingsButton",
+          "path": "/Button[@AutomationId=\"SettingsButton\"]",
+          "children": []
+        },
+        {
+          "name": "PrivacyTeachingTip",
+          "path": "/Window[@AutomationId=\"PrivacyTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadDetailTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadDetailTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadLightTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadLightTeachingTip\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "MenuBar",
+          "path": "/MenuBar[@AutomationId=\"MenuBar\"]",
+          "children": [
+            {
+              "name": "File",
+              "path": "/MenuItem[@AutomationId=\"File\"]",
+              "children": []
+            },
+            {
+              "name": "Edit",
+              "path": "/MenuItem[@AutomationId=\"Edit\"]",
+              "children": []
+            },
+            {
+              "name": "View",
+              "path": "/MenuItem[@AutomationId=\"View\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Headings",
+          "path": "/Button[@Name=\"Headings\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Lists",
+          "path": "/Button[@Name=\"Lists\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Bold__Ctrl_B_",
+          "path": "/Button[@Name=\"Bold (Ctrl+B)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Italic__Ctrl_I_",
+          "path": "/Button[@Name=\"Italic (Ctrl+I)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Strikethrough__Ctrl_Shift_X_",
+          "path": "/Button[@Name=\"Strikethrough (Ctrl+Shift+X)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Link__Ctrl_K_",
+          "path": "/Button[@Name=\"Link (Ctrl+K)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Table",
+          "path": "/Button[@Name=\"Table\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Clear_formatting__Ctrl_Space_",
+          "path": "/Button[@Name=\"Clear formatting (Ctrl+Space)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_RewriteDropDownButton",
+          "path": "/Button[@AutomationId=\"RewriteDropDownButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_FREButton",
+          "path": "/Button[@AutomationId=\"FREButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_AvatarButton",
+          "path": "/Button[@AutomationId=\"AvatarButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_SettingsButton",
+          "path": "/Button[@AutomationId=\"SettingsButton\"]",
+          "children": []
+        },
+        {
+          "name": "PrivacyTeachingTip",
+          "path": "/Window[@AutomationId=\"PrivacyTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadDetailTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadDetailTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadLightTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadLightTeachingTip\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "MenuBar",
+          "path": "/MenuBar[@AutomationId=\"MenuBar\"]",
+          "children": [
+            {
+              "name": "File",
+              "path": "/MenuItem[@AutomationId=\"File\"]",
+              "children": []
+            },
+            {
+              "name": "Edit",
+              "path": "/MenuItem[@AutomationId=\"Edit\"]",
+              "children": []
+            },
+            {
+              "name": "View",
+              "path": "/MenuItem[@AutomationId=\"View\"]",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Click_Headings",
+          "path": "/Button[@Name=\"Headings\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Lists",
+          "path": "/Button[@Name=\"Lists\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Bold__Ctrl_B_",
+          "path": "/Button[@Name=\"Bold (Ctrl+B)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Italic__Ctrl_I_",
+          "path": "/Button[@Name=\"Italic (Ctrl+I)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Strikethrough__Ctrl_Shift_X_",
+          "path": "/Button[@Name=\"Strikethrough (Ctrl+Shift+X)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Link__Ctrl_K_",
+          "path": "/Button[@Name=\"Link (Ctrl+K)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Table",
+          "path": "/Button[@Name=\"Table\"]",
+          "children": []
+        },
+        {
+          "name": "Click_Clear_formatting__Ctrl_Space_",
+          "path": "/Button[@Name=\"Clear formatting (Ctrl+Space)\"]",
+          "children": []
+        },
+        {
+          "name": "Click_RewriteDropDownButton",
+          "path": "/Button[@AutomationId=\"RewriteDropDownButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_FREButton",
+          "path": "/Button[@AutomationId=\"FREButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_AvatarButton",
+          "path": "/Button[@AutomationId=\"AvatarButton\"]",
+          "children": []
+        },
+        {
+          "name": "Click_SettingsButton",
+          "path": "/Button[@AutomationId=\"SettingsButton\"]",
+          "children": []
+        },
+        {
+          "name": "PrivacyTeachingTip",
+          "path": "/Window[@AutomationId=\"PrivacyTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadDetailTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadDetailTeachingTip\"]",
+          "children": []
+        },
+        {
+          "name": "PsDownloadLightTeachingTip",
+          "path": "/Pane[@AutomationId=\"PsDownloadLightTeachingTip\"]",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "Unnamed",
+      "path": "/Pane[0]/Pane[0]",
+      "children": [
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        },
+        {
+          "name": "ContentTextBlock",
+          "path": "/Text[@AutomationId=\"ContentTextBlock\"]",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
