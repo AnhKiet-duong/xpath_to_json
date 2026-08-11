@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("XPathScanner.App")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("XPathScanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("XPathScanner.App")]
-[assembly: System.Reflection.AssemblyTitleAttribute("XPathScanner.App")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9aa00586849e0c23d7d6a0514d198a14aa70b9c")]
+[assembly: System.Reflection.AssemblyProductAttribute("XPathScanner")]
+[assembly: System.Reflection.AssemblyTitleAttribute("XPathScanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

@@ -29,6 +29,10 @@
             <Button x:Name="PickAnchorButton" Content="Chọn gốc (Ctrl+R)" Margin="8,0,0,0" Click="PickAnchorButton_Click"/>
         </StackPanel>
 
+        <!-- Hàng 2: progress bar báo đang quét (indeterminate, chỉ hiện khi quét) -->
+        <ProgressBar x:Name="ScanProgressBar" Grid.Row="2" Height="8" Margin="0,0,0,8"
+                     IsIndeterminate="True" Visibility="Collapsed"/>
+
         <!-- Hàng 3: cây kết quả quét (double-click đổi tên, kéo-thả sắp xếp) -->
         <TreeView x:Name="ResultTreeView" Grid.Row="3"
                   MouseDoubleClick="ResultTreeView_MouseDoubleClick"

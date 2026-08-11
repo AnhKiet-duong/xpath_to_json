@@ -86,7 +86,7 @@ dotnet publish XPathScanner\XPathScanner.App\XPathScanner.App.csproj \
   -o publish
 ```
 
-Kết quả: **`publish\XPathScanner.App.exe`** — self-contained, single-file.
+Kết quả: **`publish\XPathScanner.exe`** — self-contained, single-file.
 
 📌 Chỉ cần copy **1 file exe** này sang máy khác (Windows 64-bit) là chạy được. Các file `*.pdb`
 là debug symbol, không cần copy.
@@ -172,7 +172,7 @@ XPath to Json Project/
 ├── TASnode.json                      # file JSON mẫu để kiểm thử merge
 ├── Untitled design.png               # ảnh nguồn của icon
 ├── publish/
-│   └── XPathScanner.App.exe          # exe self-contained (~70 MB)
+│   └── XPathScanner.exe             # exe self-contained (~70 MB)
 └── XPathScanner/
     ├── XPathScanner.sln
     ├── XPathScanner.Core/            # class library: toàn bộ logic

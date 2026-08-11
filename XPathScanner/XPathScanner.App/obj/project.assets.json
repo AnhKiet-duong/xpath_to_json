@@ -1295,7 +1295,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "G:\\Xpath to Json Project\\XPathScanner\\XPathScanner.App\\XPathScanner.App.csproj",
-      "projectName": "XPathScanner.App",
+      "projectName": "XPathScanner",
       "projectPath": "G:\\Xpath to Json Project\\XPathScanner\\XPathScanner.App\\XPathScanner.App.csproj",
       "packagesPath": "C:\\Users\\Kiet\\.nuget\\packages\\",
       "outputPath": "G:\\Xpath to Json Project\\XPathScanner\\XPathScanner.App\\obj\\",

@@ -36,3 +36,4 @@ g:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Debug\net8.0-windows\
 g:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Debug\net8.0-windows\RenameDialog.g.cs
 g:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Debug\net8.0-windows\CleanupDialog.baml
 g:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Debug\net8.0-windows\CleanupDialog.g.cs
+G:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Debug\net8.0-windows\XPathScanner.App.sourcelink.json

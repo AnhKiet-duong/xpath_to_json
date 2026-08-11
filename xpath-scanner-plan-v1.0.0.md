@@ -74,7 +74,7 @@ XPathScanner/
 
 - **Build (dev):** `dotnet build XPathScanner\XPathScanner.sln`
 - **Publish exe chạy máy khác (self-contained single-file):** file `build-exe.bat` ở thư mục gốc
-  dự án, output ra `publish\XPathScanner.App.exe` (~72 MB, gói luôn .NET 8 runtime, máy đích
+  dự án, output ra `publish\XPathScanner.exe` (~72 MB, gói luôn .NET 8 runtime, máy đích
   không cần cài gì; máy đích phải là Windows 64-bit — nếu 32-bit sửa `win-x64` thành `win-x86`).
 
 ---
@@ -1306,9 +1306,9 @@ namespace XPathScanner.App
 
 ### 5.2. File: `MainWindow.xaml`
 
-> Bố cục 6 hàng: chọn ứng dụng → tên màn hình + root anchor path → cây kết quả (double-click
-> đổi tên, kéo-thả sắp xếp) → hàng nút thao tác → log. `SourceInitialized` dùng để đăng ký
-> hotkey Ctrl+R.
+> Bố cục 6 hàng: chọn ứng dụng → tên màn hình + root anchor path → progress bar (chỉ hiện khi
+> đang quét) → cây kết quả (double-click đổi tên, kéo-thả sắp xếp) → hàng nút thao tác → log.
+> `SourceInitialized` dùng để đăng ký hotkey Ctrl+R.
 
 ```xml
 <Window x:Class="XPathScanner.App.MainWindow"
@@ -1342,6 +1342,10 @@ namespace XPathScanner.App
             <Button x:Name="PickAnchorButton" Content="Chọn gốc (Ctrl+R)" Margin="8,0,0,0" Click="PickAnchorButton_Click"/>
         </StackPanel>
 
+        <!-- Hàng 2: progress bar báo đang quét (indeterminate, chỉ hiện khi quét) -->
+        <ProgressBar x:Name="ScanProgressBar" Grid.Row="2" Height="8" Margin="0,0,0,8"
+                     IsIndeterminate="True" Visibility="Collapsed"/>
+
         <!-- Hàng 3: cây kết quả quét (double-click đổi tên, kéo-thả sắp xếp) -->
         <TreeView x:Name="ResultTreeView" Grid.Row="3"
                   MouseDoubleClick="ResultTreeView_MouseDoubleClick"
@@ -1372,14 +1376,18 @@ namespace XPathScanner.App
 
 ### 5.3. File: `MainWindow.xaml.cs`
 
-> Toàn bộ logic giao diện: quét, lưu/cập nhật JSON (merge + diff + dọn node lỗi thời), chọn
-> phần tử gốc bằng hotkey Ctrl+R (Win32 `RegisterHotKey`), tham số hoá `{}`, đặt node làm Root
-> từ cây, kéo-thả sắp xếp cây, đổi tên node bằng double-click.
+> Toàn bộ logic giao diện: quét (bất đồng bộ — chạy trên thread STA riêng, UI không bị treo,
+> có progress bar indeterminate + vô hiệu hoá các nút khi đang quét), lưu/cập nhật JSON
+> (merge + diff + dọn node lỗi thời), chọn phần tử gốc bằng hotkey Ctrl+R (Win32
+> `RegisterHotKey`), tham số hoá `{}`, đặt node làm Root từ cây, kéo-thả sắp xếp cây, đổi tên
+> node bằng double-click.
 
 ```csharp
 using System;
+using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -1474,34 +1482,76 @@ namespace XPathScanner.App
                 return;
             }
 
-            try
+            string screenName = ScreenNameTextBox.Text.Trim();
+            string rootAnchor = RootAnchorTextBox.Text.Trim();
+
+            Log($"Đang quét: {selected.WindowTitle} ...");
+            SetScanning(true);
+
+            // Chạy quét trên thread riêng (STA — FlaUI/UIA3 cần COM STA) để UI thread
+            // không bị treo → Windows không còn báo "Không phản hồi" khi cây UI lớn.
+            var scanThread = new Thread(() =>
             {
-                Log($"Đang quét: {selected.WindowTitle} ...");
-                _lastScanResult = _scannerService.ScanApplication(
-                    selected.ProcessId,
-                    ScreenNameTextBox.Text.Trim(),
-                    RootAnchorTextBox.Text.Trim());
-
-                foreach (var w in _scannerService.Warnings)
-                    Log("Cảnh báo: " + w);
-
-                if (!string.IsNullOrWhiteSpace(RootAnchorTextBox.Text) && !_scannerService.LastScanUsedRootAnchor)
+                try
                 {
-                    Log("⚠️ CẢNH BÁO: Bạn đã nhập Root anchor path nhưng lần quét này KHÔNG dùng được " +
-                        "nó (xem chi tiết lỗi ở log phía trên). Kết quả quét có thể KHÔNG đúng như mong đợi.");
-                }
-                else if (_scannerService.LastScanUsedRootAnchor)
-                {
-                    Log("✅ Đã quét đúng phạm vi Root anchor path đã nhập.");
-                }
+                    var result = _scannerService.ScanApplication(selected.ProcessId, screenName, rootAnchor);
+                    var warnings = new List<string>(_scannerService.Warnings);
+                    bool usedRootAnchor = _scannerService.LastScanUsedRootAnchor;
 
-                RenderTree(_lastScanResult);
-                Log("Quét hoàn tất.");
-            }
-            catch (Exception ex)
-            {
-                Log("Lỗi khi quét: " + ex.Message);
-            }
+                    RunOnUi(() =>
+                    {
+                        _lastScanResult = result;
+
+                        foreach (var w in warnings)
+                            Log("Cảnh báo: " + w);
+
+                        if (!string.IsNullOrWhiteSpace(rootAnchor) && !usedRootAnchor)
+                        {
+                            Log("⚠️ CẢNH BÁO: Bạn đã nhập Root anchor path nhưng lần quét này KHÔNG dùng được " +
+                                "nó (xem chi tiết lỗi ở log phía trên). Kết quả quét có thể KHÔNG đúng như mong đợi.");
+                        }
+                        else if (usedRootAnchor)
+                        {
+                            Log("✅ Đã quét đúng phạm vi Root anchor path đã nhập.");
+                        }
+
+                        RenderTree(_lastScanResult);
+                        Log("Quét hoàn tất.");
+                    });
+                }
+                catch (Exception ex)
+                {
+                    RunOnUi(() => Log("Lỗi khi quét: " + ex.Message));
+                }
+                finally
+                {
+                    RunOnUi(() => SetScanning(false));
+                }
+            });
+            scanThread.IsBackground = true;
+            scanThread.SetApartmentState(ApartmentState.STA);
+            scanThread.Start();
+        }
+
+        private void SetScanning(bool scanning)
+        {
+            ScanButton.IsEnabled = !scanning;
+            RefreshButton.IsEnabled = !scanning;
+            PickAnchorButton.IsEnabled = !scanning;
+            SaveNewButton.IsEnabled = !scanning;
+            UpdateExistingButton.IsEnabled = !scanning;
+            ParameterizeButton.IsEnabled = !scanning;
+            SetAsRootButton.IsEnabled = !scanning;
+            CleanupButton.IsEnabled = !scanning;
+            ScanProgressBar.Visibility = scanning ? Visibility.Visible : Visibility.Collapsed;
+            ScanButton.Content = scanning ? "Đang quét..." : "Quét";
+        }
+
+        // Chạy action trên UI thread; bỏ qua nếu cửa sổ đã đóng (app đang thoát).
+        private void RunOnUi(Action action)
+        {
+            if (Dispatcher.HasShutdownStarted) return;
+            Dispatcher.Invoke(action);
         }
 
         private void SaveNewButton_Click(object sender, RoutedEventArgs e)
@@ -2143,6 +2193,7 @@ public partial class App : Application
 | Tính năng | Trạng thái | Ghi chú |
 |---|---|---|
 | Quét cây UIA → JSON `{name, path, children}` | ✅ Hoàn tất | v2 schema, Raw* ẩn khi ghi file |
+| Quét bất đồng bộ, UI không bị treo | ✅ Hoàn tất | thread STA riêng + progress bar indeterminate, khoá nút khi đang quét |
 | Path tương đối từ cửa sổ chính | ✅ Hoàn tất | segment có `@AutomationId`/`@Name`/`@ClassName`/index |
 | Path tuyệt đối từ Desktop | ✅ Hoàn tất | resolve tương đối trước, tuyệt đối sau |
 | Root anchor path khớp chính node root | ✅ Hoàn tất | `MatchesSegment` + `startIndex=1` |
@@ -2157,7 +2208,7 @@ public partial class App : Application
 | Tham số hoá `{}` | ✅ Hoàn tất | thay `@AutomationId`/`@Name` cuối path |
 | Kéo-thả sắp xếp cây | ✅ Hoàn tất | Before/After/Into, chặn thả vào con |
 | Đổi tên node (double-click) | ✅ Hoàn tất | RenameDialog |
-| Xuất exe self-contained | ✅ Hoàn tất | `build-exe.bat` → `publish\XPathScanner.App.exe` |
+| Xuất exe self-contained | ✅ Hoàn tất | `build-exe.bat` → `publish\XPathScanner.exe` |
 
 ---
 
@@ -2196,4 +2247,4 @@ public partial class App : Application
   đóng app XPathScanner đang chạy rồi build lại.
 - Lệnh xuất exe: chạy `build-exe.bat` (hoặc `dotnet publish -c Release -r win-x64 --self-contained true
   -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true
-  -p:EnableCompressionInSingleFile=true -o publish`), kết quả tại `publish\XPathScanner.App.exe`.
+  -p:EnableCompressionInSingleFile=true -o publish`), kết quả tại `publish\XPathScanner.exe`.

@@ -10,3 +10,4 @@ g:\Xpath to Json Project\XPathScanner\XPathScanner.Core\obj\Release\net8.0\XPath
 g:\Xpath to Json Project\XPathScanner\XPathScanner.Core\obj\Release\net8.0\refint\XPathScanner.Core.dll
 g:\Xpath to Json Project\XPathScanner\XPathScanner.Core\obj\Release\net8.0\XPathScanner.Core.pdb
 g:\Xpath to Json Project\XPathScanner\XPathScanner.Core\obj\Release\net8.0\ref\XPathScanner.Core.dll
+G:\Xpath to Json Project\XPathScanner\XPathScanner.Core\obj\Release\net8.0\XPathScanner.Core.sourcelink.json
