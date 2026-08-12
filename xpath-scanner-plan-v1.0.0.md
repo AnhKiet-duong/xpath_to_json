@@ -688,6 +688,10 @@ namespace XPathScanner.Core.Services
 
         private readonly ElementPathResolver _pathResolver = new();
 
+        // Bỏ trùng node lá: khi bật, các node con lá có path trùng với node lá trước đó
+        // (cùng cấp cha) sẽ bị bỏ đi — giữ node đầu tiên. Mặc định theo checkbox ở UI.
+        private bool _skipDuplicateLeaves = true;
+
         public List<string> Warnings { get; } = new();
 
         // Cho UI biết lần quét gần nhất có thực sự dùng Root anchor path hay không.
@@ -696,10 +700,12 @@ namespace XPathScanner.Core.Services
         // Điểm vào: quét 1 ứng dụng, trả về node gốc đại diện cho "màn hình" người dùng đặt tên.
         // screenName: người dùng nhập trên UI (VD: "PrintOut", "NavBar"...).
         // rootAnchorPath: tuỳ chọn, nếu người dùng muốn root là 1 khu vực cụ thể (có thể để rỗng).
-        public UiNode ScanApplication(int processId, string screenName, string rootAnchorPath)
+        // skipDuplicateLeaves: true = bỏ các node lá có path trùng (không ghi trùng).
+        public UiNode ScanApplication(int processId, string screenName, string rootAnchorPath, bool skipDuplicateLeaves = true)
         {
             Warnings.Clear();
             LastScanUsedRootAnchor = false;
+            _skipDuplicateLeaves = skipDuplicateLeaves;
 
             using var automation = new UIA3Automation();
             var app = FlaUI.Core.Application.Attach(processId);
@@ -859,13 +865,29 @@ namespace XPathScanner.Core.Services
                 RawControlType = controlType
             };
 
+            // Danh sách path các node lá đã thấy ở CÙNG cấp cha — dùng để bỏ node lá trùng.
+            // Tạo mới mỗi lần ResolveNode chạy (phạm vi theo từng cha, không phải toàn cây).
+            var seenLeafPaths = new HashSet<string>();
             foreach (var child in children)
             {
                 // path của node con là TƯƠNG ĐỐI theo node cha gần nhất có path khác rỗng
                 // (đúng quy tắc 2 trong PHẦN 1: không cộng dồn path cha)
                 var childNode = ResolveNode(child, "", depth + 1);
-                if (childNode != null)
-                    node.Children.Add(childNode);
+                if (childNode == null) continue;
+
+                // Bỏ trùng node lá: cùng cấp cha, nếu path của node lá đã xuất hiện trước đó
+                // (node lá trước có cùng path) thì bỏ — chỉ giữ node đầu tiên.
+                // Node CÓ con (VD: tab trùng path nhưng nội dung khác) KHÔNG bị ảnh hưởng.
+                if (_skipDuplicateLeaves &&
+                    childNode.Children.Count == 0 &&
+                    !string.IsNullOrEmpty(childNode.Path) &&
+                    !seenLeafPaths.Add(childNode.Path))
+                {
+                    Warnings.Add($"Bỏ node lá trùng path: {childNode.Path}");
+                    continue;
+                }
+
+                node.Children.Add(childNode);
             }
 
             return node;
@@ -1340,6 +1362,8 @@ namespace XPathScanner.App
             <TextBlock Text="Root anchor path:" VerticalAlignment="Center"/>
             <TextBox x:Name="RootAnchorTextBox" Width="300" Margin="5,0,0,0"/>
             <Button x:Name="PickAnchorButton" Content="Chọn gốc (Ctrl+R)" Margin="8,0,0,0" Click="PickAnchorButton_Click"/>
+            <CheckBox x:Name="WriteDuplicatesCheckBox" Content="Ghi các XPath trùng nhau"
+                      Margin="14,0,0,0" VerticalAlignment="Center" IsChecked="False"/>
         </StackPanel>
 
         <!-- Hàng 2: progress bar báo đang quét (indeterminate, chỉ hiện khi quét) -->
@@ -1484,6 +1508,8 @@ namespace XPathScanner.App
 
             string screenName = ScreenNameTextBox.Text.Trim();
             string rootAnchor = RootAnchorTextBox.Text.Trim();
+            // Mặc định KHÔNG ghi trùng (checkbox "Ghi các XPath trùng nhau" bỏ tick → bỏ node lá trùng)
+            bool skipDuplicateLeaves = !(WriteDuplicatesCheckBox.IsChecked ?? false);
 
             Log($"Đang quét: {selected.WindowTitle} ...");
             SetScanning(true);
@@ -1494,7 +1520,7 @@ namespace XPathScanner.App
             {
                 try
                 {
-                    var result = _scannerService.ScanApplication(selected.ProcessId, screenName, rootAnchor);
+                    var result = _scannerService.ScanApplication(selected.ProcessId, screenName, rootAnchor, skipDuplicateLeaves);
                     var warnings = new List<string>(_scannerService.Warnings);
                     bool usedRootAnchor = _scannerService.LastScanUsedRootAnchor;
 
@@ -2194,6 +2220,7 @@ public partial class App : Application
 |---|---|---|
 | Quét cây UIA → JSON `{name, path, children}` | ✅ Hoàn tất | v2 schema, Raw* ẩn khi ghi file |
 | Quét bất đồng bộ, UI không bị treo | ✅ Hoàn tất | thread STA riêng + progress bar indeterminate, khoá nút khi đang quét |
+| Bỏ node lá trùng path (tuỳ chọn) | ✅ Hoàn tất | checkbox "Ghi các XPath trùng nhau", mặc định bỏ trùng; chỉ bỏ node lá, giữ tab trùng path có nội dung khác |
 | Path tương đối từ cửa sổ chính | ✅ Hoàn tất | segment có `@AutomationId`/`@Name`/`@ClassName`/index |
 | Path tuyệt đối từ Desktop | ✅ Hoàn tất | resolve tương đối trước, tuyệt đối sau |
 | Root anchor path khớp chính node root | ✅ Hoàn tất | `MatchesSegment` + `startIndex=1` |

@@ -67,7 +67,7 @@ namespace XPathScanner.App {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XPathScanner.App;component/cleanupdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XPathScanner;component/cleanupdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\CleanupDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

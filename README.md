@@ -40,6 +40,7 @@ dạng cây đệ quy `{ name, path, children }`, trong đó `path` là **XPath*
 | 🔍 | Quét toàn bộ cửa sổ chính của một ứng dụng, hoặc **giới hạn vào một root anchor** (3 cách chọn). |
 | 🧭 | Tự động sinh XPath cho từng phần tử: `Button[@AutomationId="..."]`, `Edit[@Name="..."]`,... |
 | 🧹 | Gộp các node trung gian "trong suốt" (không AutomationId/Name, đúng 1 con) để path gọn, không rác. |
+| ♻️ | **Bỏ node lá trùng path** (tuỳ chọn, mặc định bỏ): không ghi các node lá lặp như `RowSingleName` ×30 — vẫn giữ tab trùng path nhưng nội dung khác. |
 | 🔄 | **Cập nhật gia tăng**: merge vào file JSON cũ, giữ `name` do người dùng đặt, cập nhật `path` mới, **không bao giờ tự xoá** node. |
 | 🧾 | Xuất kèm file `<file>.diff.json` (thêm / đổi path / không match). |
 | ✏️ | Chỉnh sửa cây trước khi lưu: **đổi tên**, **tham số hoá `{}`**, **kéo-thả sắp xếp**, **dọn node lỗi thời**. |
@@ -104,6 +105,10 @@ là debug symbol, không cần copy.
 3. (Tuỳ chọn) nhập **Root anchor path** để giới hạn phạm vi quét.
 4. Bấm **Quét** → cây kết quả hiện trong TreeView, kèm log chi tiết.
 5. Bấm **Lưu JSON mới** để ghi file, hoặc **Cập nhật JSON hiện có** để merge vào file cũ.
+
+> ♻️ **Ghi các XPath trùng nhau** — checkbox cạnh ô Root anchor. **Mặc định bỏ tick** (không ghi trùng):
+> các node lá lặp path (VD `RowSingleName` xuất hiện nhiều lần trong 1 pane) chỉ giữ lại 1. Tích
+> vào để ghi đủ mọi node như cũ. Node **có con** dù trùng path vẫn luôn được giữ.
 
 ### Chọn Root anchor path (3 cách)
 

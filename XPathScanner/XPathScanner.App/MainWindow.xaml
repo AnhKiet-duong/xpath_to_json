@@ -27,6 +27,8 @@
             <TextBlock Text="Root anchor path:" VerticalAlignment="Center"/>
             <TextBox x:Name="RootAnchorTextBox" Width="300" Margin="5,0,0,0"/>
             <Button x:Name="PickAnchorButton" Content="Chọn gốc (Ctrl+R)" Margin="8,0,0,0" Click="PickAnchorButton_Click"/>
+            <CheckBox x:Name="WriteDuplicatesCheckBox" Content="Ghi các XPath trùng nhau"
+                      Margin="14,0,0,0" VerticalAlignment="Center" IsChecked="False"/>
         </StackPanel>
 
         <!-- Hàng 2: progress bar báo đang quét (indeterminate, chỉ hiện khi quét) -->

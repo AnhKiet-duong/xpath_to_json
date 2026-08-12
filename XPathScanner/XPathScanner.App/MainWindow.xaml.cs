@@ -99,6 +99,8 @@ namespace XPathScanner.App
 
             string screenName = ScreenNameTextBox.Text.Trim();
             string rootAnchor = RootAnchorTextBox.Text.Trim();
+            // Mặc định KHÔNG ghi trùng (checkbox "Ghi các XPath trùng nhau" bỏ tick → bỏ node lá trùng)
+            bool skipDuplicateLeaves = !(WriteDuplicatesCheckBox.IsChecked ?? false);
 
             Log($"Đang quét: {selected.WindowTitle} ...");
             SetScanning(true);
@@ -109,7 +111,7 @@ namespace XPathScanner.App
             {
                 try
                 {
-                    var result = _scannerService.ScanApplication(selected.ProcessId, screenName, rootAnchor);
+                    var result = _scannerService.ScanApplication(selected.ProcessId, screenName, rootAnchor, skipDuplicateLeaves);
                     var warnings = new List<string>(_scannerService.Warnings);
                     bool usedRootAnchor = _scannerService.LastScanUsedRootAnchor;
 

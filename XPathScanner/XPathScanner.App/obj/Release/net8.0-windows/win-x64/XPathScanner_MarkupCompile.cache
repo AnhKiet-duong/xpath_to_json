@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-G:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Release\net8.0-windows\win-x64\
+g:\Xpath to Json Project\XPathScanner\XPathScanner.App\obj\Release\net8.0-windows\win-x64\
 XPathScanner.App
 none
 false
 TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-G:\Xpath to Json Project\XPathScanner\XPathScanner.App\App.xaml
+g:\Xpath to Json Project\XPathScanner\XPathScanner.App\App.xaml
 3-609953724
 
 71416390073
-211-666515726
+211-160786336
 CleanupDialog.xaml;MainWindow.xaml;RenameDialog.xaml;
 
 False

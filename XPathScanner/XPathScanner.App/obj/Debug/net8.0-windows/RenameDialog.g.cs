@@ -67,7 +67,7 @@ namespace XPathScanner.App {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XPathScanner.App;component/renamedialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XPathScanner;component/renamedialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RenameDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

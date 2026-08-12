@@ -15,6 +15,10 @@ namespace XPathScanner.Core.Services
 
         private readonly ElementPathResolver _pathResolver = new();
 
+        // Bỏ trùng node lá: khi bật, các node con lá có path trùng với node lá trước đó
+        // (cùng cấp cha) sẽ bị bỏ đi — giữ node đầu tiên. Mặc định theo checkbox ở UI.
+        private bool _skipDuplicateLeaves = true;
+
         public List<string> Warnings { get; } = new();
 
         // Cho UI biết lần quét gần nhất có thực sự dùng Root anchor path hay không.
@@ -23,10 +27,12 @@ namespace XPathScanner.Core.Services
         // Điểm vào: quét 1 ứng dụng, trả về node gốc đại diện cho "màn hình" người dùng đặt tên.
         // screenName: người dùng nhập trên UI (VD: "PrintOut", "NavBar"...).
         // rootAnchorPath: tuỳ chọn, nếu người dùng muốn root là 1 khu vực cụ thể (có thể để rỗng).
-        public UiNode ScanApplication(int processId, string screenName, string rootAnchorPath)
+        // skipDuplicateLeaves: true = bỏ các node lá có path trùng (không ghi trùng).
+        public UiNode ScanApplication(int processId, string screenName, string rootAnchorPath, bool skipDuplicateLeaves = true)
         {
             Warnings.Clear();
             LastScanUsedRootAnchor = false;
+            _skipDuplicateLeaves = skipDuplicateLeaves;
 
             using var automation = new UIA3Automation();
             var app = FlaUI.Core.Application.Attach(processId);
@@ -186,13 +192,29 @@ namespace XPathScanner.Core.Services
                 RawControlType = controlType
             };
 
+            // Danh sách path các node lá đã thấy ở CÙNG cấp cha — dùng để bỏ node lá trùng.
+            // Tạo mới mỗi lần ResolveNode chạy (phạm vi theo từng cha, không phải toàn cây).
+            var seenLeafPaths = new HashSet<string>();
             foreach (var child in children)
             {
                 // path của node con là TƯƠNG ĐỐI theo node cha gần nhất có path khác rỗng
                 // (đúng quy tắc 2 trong phần 0: không cộng dồn path cha)
                 var childNode = ResolveNode(child, "", depth + 1);
-                if (childNode != null)
-                    node.Children.Add(childNode);
+                if (childNode == null) continue;
+
+                // Bỏ trùng node lá: cùng cấp cha, nếu path của node lá đã xuất hiện trước đó
+                // (node lá trước có cùng path) thì bỏ — chỉ giữ node đầu tiên.
+                // Node CÓ con (VD: tab trùng path nhưng nội dung khác) KHÔNG bị ảnh hưởng.
+                if (_skipDuplicateLeaves &&
+                    childNode.Children.Count == 0 &&
+                    !string.IsNullOrEmpty(childNode.Path) &&
+                    !seenLeafPaths.Add(childNode.Path))
+                {
+                    Warnings.Add($"Bỏ node lá trùng path: {childNode.Path}");
+                    continue;
+                }
+
+                node.Children.Add(childNode);
             }
 
             return node;
