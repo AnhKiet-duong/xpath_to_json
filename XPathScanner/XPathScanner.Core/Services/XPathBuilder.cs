@@ -4,8 +4,9 @@ namespace XPathScanner.Core.Services
 {
     public static class XPathBuilder
     {
-        // Sinh 1 đoạn xpath (segment) cho MỘT phần tử, ưu tiên AutomationId > Name > index.
-        public static string BuildSegment(AutomationElement element, int siblingIndexInSameType)
+        // Sinh 1 đoạn xpath (segment) cho MỘT phần tử, ưu tiên AutomationId > Name.
+        // Phần tử không có id/name → chỉ trả về controlType (không kèm index [N]).
+        public static string BuildSegment(AutomationElement element)
         {
             string controlType = element.Properties.ControlType.IsSupported
                 ? element.Properties.ControlType.Value.ToString()
@@ -20,7 +21,7 @@ namespace XPathScanner.Core.Services
             if (!string.IsNullOrWhiteSpace(name))
                 return $"{controlType}[@Name=\"{Escape(name)}\"]";
 
-            return $"{controlType}[{siblingIndexInSameType}]";
+            return controlType;
         }
 
         private static string Escape(string input) => input.Replace("\"", "\\\"");

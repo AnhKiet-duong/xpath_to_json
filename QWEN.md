@@ -16,7 +16,9 @@ Implementation status: **v2 complete** (matches real schema samples `KIC*.json`)
 | `XPathScanner/XPathScanner.Core/Services/XPathBuilder.cs` | Builds one XPath segment: AutomationId > Name > index, `[@AutomationId="..."]` style (double quotes) |
 | `XPathScanner/XPathScanner.Core/Services/UiScannerService.cs` | Recursive UIA scan; collapses transparent containers (no id/name AND exactly 1 child, max 10 in a chain); child paths are relative; suggests semantic names (`Click_`, `Input_`, `Select_`, ...); collects `Warnings` |
 | `XPathScanner/XPathScanner.Core/Services/JsonMergeService.cs` | Load/Save/merge JSON; merge key extracted from the `path` string (AutomationId preferred, then Name); preserves user-renamed `name`; NEVER deletes nodes; serializer uses `JavaScriptEncoder.UnsafeRelaxedJsonEscaping` so output is `\"` (not `\u0022`) |
-| `XPathScanner/XPathScanner.App/` | WPF UI: app picker + refresh, screen name (required), root anchor path (optional), TreeView, double-click rename via `RenameDialog`, Log pane, Save new / Update existing JSON |
+| `XPathScanner/XPathScanner.App/` | WPF UI: app picker + refresh, screen name (required), root anchor path (optional), TreeView, double-click rename via `RenameDialog`, Log pane, Save new / Update existing JSON. `App.xaml.cs` overrides `OnStartup`: if CLI args present → runs `CliRunner` headless and exits (no WPF window); otherwise opens the UI. |
+| `XPathScanner/XPathScanner.App/CliRunner.cs` | Headless cmd mode: `XPathScanner.exe list` / `XPathScanner.exe export --app <pid|name> --screen <name> [--root|--out|--merge|--keep-duplicates]`. Attaches to parent console (P/Invoke), scans on an STA thread, writes JSON via `JsonMergeService`. Exit codes: 0 ok / 2 bad args / 3 app or merge file not found / 4 scan error. |
+| `XPathScanner-CLI.md` | User guide (Vietnamese) for the cmd export feature. |
 | `build.bat` | Builds the solution; `build.bat run` also launches the app |
 | `xpath-scanner-plan (1).md` | The v2 implementation plan (authoritative, step-by-step with DoD) |
 | `New Noted.json` | Sample v2 scan output (Notepad) — the current output format |

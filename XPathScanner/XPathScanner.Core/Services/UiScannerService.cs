@@ -167,7 +167,7 @@ namespace XPathScanner.Core.Services
                 children = Array.Empty<AutomationElement>();
             }
 
-            string segment = XPathBuilder.BuildSegment(element, 0);
+            string segment = XPathBuilder.BuildSegment(element);
             string currentPath = string.IsNullOrEmpty(prefix) ? "/" + segment : prefix + "/" + segment;
 
             bool isTransparent =

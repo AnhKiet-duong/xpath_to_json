@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XPathScanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fab7453371557c0133ecf21a5c27a5c5a3156850")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6f1fdaa54a4ddc31ccbcc851ede4aec50a48f90")]
 [assembly: System.Reflection.AssemblyProductAttribute("XPathScanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XPathScanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
